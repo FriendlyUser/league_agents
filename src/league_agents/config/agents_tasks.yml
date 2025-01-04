@@ -1,0 +1,21 @@
+analyze_team_performance:
+  description: >
+    Collect and analyze team match history, player performance, and objective control.
+    Deliver insights on lane matchups and potential weak spots.
+  expected_output: >
+    Detailed report on each team’s form, win conditions, and historical trends.
+  agent: team_performance_analyst
+
+track_meta_shifts:
+  description: >
+    Review patch notes, pro-level drafts, and meta trends to forecast optimal strategies.
+  expected_output: >
+    Report highlighting how the current meta favors or disadvantages specific teams and players.
+  agent: meta_analyst
+
+final_prediction_task:
+  description: >
+    Integrate all data to make a comprehensive series prediction, including scoreline and win conditions.
+  expected_output: >
+    Clear, concise betting insights for bettors with a final score prediction (e.g., 3-2).
+  agent: lead_analyst
