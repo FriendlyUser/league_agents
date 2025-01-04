@@ -1,0 +1,28 @@
+analyze_team_performance:
+  description: >
+    Collect and analyze match history for {team1} and {team2}, focusing on key objectives such as gold leads, 
+    dragon and baron control, and champion damage. Assess first dragon rates, baron takes, and overall objective 
+    efficiency to identify strengths and weaknesses. Deliver insights into which team excels in securing key objectives, 
+    controlling the map, and closing out games.
+  expected_output: >
+    A detailed comparative report on {team1} and {team2}'s objective performance, including:
+    - Gold differences at 10, 15, and 25 minutes.
+    - Dragon control rates (first dragon %, total dragons).
+    - Baron control and first baron rates.
+    - Damage to champions and team fight contributions.
+    - Objective-related win conditions and potential exploitable weaknesses.
+  agent: team_performance_analyst
+
+track_meta_shifts:
+  description: >
+    Review patch notes, pro-level drafts, and meta trends to forecast optimal strategies.
+  expected_output: >
+    Report highlighting how the current meta favors or disadvantages specific teams and players.
+  agent: meta_analyst
+
+final_prediction_task:
+  description: >
+    Integrate all data to make a comprehensive series prediction, including scoreline and win conditions.
+  expected_output: >
+    Clear, concise betting insights for bettors with a final score prediction (e.g., 3-2).
+  agent: lead_analyst

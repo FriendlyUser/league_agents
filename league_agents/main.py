@@ -16,7 +16,8 @@ def run():
     Run the crew.
     """
     inputs = {
-        'topic': 'AI LLMs'
+        'team1': 'OKSavingsBank BRION',
+        'team2': 'Dplus KIA', 
     }
     LeagueAgents().crew().kickoff(inputs=inputs)
 
@@ -26,7 +27,8 @@ def train():
     Train the crew for a given number of iterations.
     """
     inputs = {
-        "topic": "AI LLMs"
+        'team1': 'OKSavingsBank BRION',
+        'team2': 'Dplus KIA', 
     }
     try:
         LeagueAgents().crew().train(n_iterations=int(sys.argv[1]), filename=sys.argv[2], inputs=inputs)
