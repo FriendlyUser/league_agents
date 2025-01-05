@@ -3,8 +3,7 @@ from crewai.project import CrewBase, agent, crew, task, before_kickoff, after_ki
 
 from .tools.csv_data_tool import CSVDataTool
 
-csv_tool = CSVDataTool()
-
+csv_data_tool = CSVDataTool()
 
 @CrewBase
 class LeagueAgents:
@@ -13,23 +12,11 @@ class LeagueAgents:
     agents_config = "config/agents_league.yaml"
     tasks_config = "config/agents_tasks.yaml"
 
-    @before_kickoff
-    def before_kickoff_function(self, inputs):
-        print(f"Before kickoff function with inputs: {inputs}")
-        # You can return the inputs or modify them as needed
-        return inputs
-
-    @after_kickoff
-    def after_kickoff_function(self, result):
-        print(f"After kickoff function with result: {result}")
-        # You can return the result or modify it as needed
-        return result
-
     @agent
     def team_performance_analyst(self) -> Agent:
         return Agent(
             config=self.agents_config["team_performance_analyst"],
-            tools=[csv_tool],
+            tools=[csv_data_tool],
             verbose=True,
         )
 
@@ -37,7 +24,7 @@ class LeagueAgents:
     def meta_analyst(self) -> Agent:
         return Agent(
             config=self.agents_config["meta_analyst"],
-            tools=[csv_tool],
+            tools=[csv_data_tool],
             verbose=True,
         )
 
@@ -45,7 +32,7 @@ class LeagueAgents:
     def lead_analyst(self) -> Agent:
         return Agent(
             config=self.agents_config["lead_analyst"],
-            tools=[csv_tool],
+            tools=[csv_data_tool],
             verbose=True,
         )
 

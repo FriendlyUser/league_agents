@@ -1,27 +1,22 @@
-from crewai_tools import tool
+from crewai.tools import BaseTool
 import pandas as pd
 from datetime import datetime, timedelta
 import os
 import gdown
 
-class CSVDataTool:
-    """
-    A utility class that downloads and processes League of Legends professional
-    match data from https://oracleselixir.com/, focusing on esports and
-    professional gaming matches for a single year. The data provides insights
-    into team performance, including statistics like kills, deaths, assists,
-    dragons, barons, gold differences, and more.
-    """
+league_file_path = 'league_pro_games.csv'
 
-    def __init__(self):
-        """
-        Initializes the CSVDataTool with a default file path.
-        The file path points to the locally stored CSV file containing
-        esports match data.
-        """
-        self.file_path = 'league_pro_games.csv'
+class CSVDataTool(BaseTool):
+    name: str = "csv_data_tool"
+    description: str = (
+        "A utility class that downloads and processes League of Legends professional "
+        "match data from https://oracleselixir.com/, focusing on esports and "
+        "professional gaming matches. The data provides insights into team performance, "
+        "including statistics like kills, deaths, assists, dragons, barons, "
+        "gold differences, and more."
+    )
+    file_path: str = league_file_path
 
-    @tool('download_csv')
     def download_csv(self):
         """
         Downloads the CSV file from Google Drive if the local file has not
@@ -48,13 +43,27 @@ class CSVDataTool:
 
         file_url = 'https://drive.google.com/uc?id=1IjIEhLc9n8eLKeY-yh_YigKVWbhgGBsN'
 
-        if not is_file_updated_within_24_hours(self.file_path):
-            gdown.download(file_url, self.file_path, quiet=False)
+        if not is_file_updated_within_24_hours(league_file_path):
+            gdown.download(file_url, league_file_path, quiet=False)
             print("File downloaded successfully.")
         else:
             print("File is up to date.")
 
-    @tool('filter_teams')
+    def _run(self, team1: str, team2: str) -> str:
+        # if self
+        if not os.path.exists(league_file_path):
+            self.download_csv()
+        else:
+            print("File already exists.")
+        df = pd.read_csv(self.file_path)
+        filtered_df = df[(df['teamname'] == team1) | (df['teamname'] == team2)]
+
+        comparison = filtered_df.groupby(['teamname'])[
+            ['golddiffat15', 'golddiffat25', 'firstbaron', 'firstdragon']
+        ].mean().reset_index()
+
+        return comparison.to_string()
+
     def filter_teams(self, team1, team2):
         """
         Filters the dataset for the specified teams and returns a summary of
@@ -77,7 +86,7 @@ class CSVDataTool:
 
         return summary.to_string()
 
-    @tool('compare_teams')
+
     def compare_teams(self, team1, team2):
         """
         Compares performance metrics between the two specified teams, including
