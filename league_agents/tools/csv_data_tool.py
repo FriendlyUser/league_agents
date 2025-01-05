@@ -39,12 +39,12 @@ def download_csv():
     else:
         print("File is up to date.")
 
-class CSVDataTool(BaseTool):
-    name: str = "csv_data_tool"
+class PlayerResultsTool(BaseTool):
+    name: str = "player_results"
     description: str = (
         "A utility class that downloads and processes League of Legends professional "
         "match data from https://oracleselixir.com/, focusing on esports and "
-        "professional gaming matches. The data provides insights into team performance, "
+        "professional gaming matches. The data provides insights into player performance, "
         "including statistics like kills, deaths, assists, dragons, barons, "
         "gold differences, and more."
     )
@@ -63,10 +63,8 @@ class CSVDataTool(BaseTool):
 
         # comparison = filtered_df.groupby(['teamname'])
         # take the last 50 rows
+        # should be last 5 games for each team.
         comparison = filtered_df.tail(50)
-
-        # time sleep to avoid rate limit
-        time.sleep(30)
         return comparison.to_string()
 
     def filter_teams(self, team1, team2):
@@ -114,3 +112,43 @@ class CSVDataTool(BaseTool):
         ].mean().reset_index()
 
         return comparison.to_string()
+
+class TeamComparisonTool(BaseTool):
+    name: str = "player_results"
+    description: str = (
+        "A utility class that downloads and processes League of Legends professional "
+        "match data from https://oracleselixir.com/, focusing on esports and "
+        "professional gaming matches. The data provides insights into team performance, "
+        "including statistics like kills, deaths, assists, dragons, barons, "
+        "gold differences, and more."
+    )
+    file_path: str = league_file_path
+
+    
+
+    def _run(self, team1: str, team2: str) -> str:
+        """
+        Filters the dataset for the specified teams and returns a summary of
+        average kills, deaths, assists, dragons, and barons grouped by
+        team name and champion.
+
+        Args:
+            team1 (str): Name of the first team to filter.
+            team2 (str): Name of the second team to filter.
+
+        Returns:
+            str: A string representation of the filtered DataFrame summary.
+        """
+        df = pd.read_csv(self.file_path)
+        filtered_df = df[(df['teamname'] == team1) | (df['teamname'] == team2)]
+
+        summary = filtered_df.groupby(['teamname', 'champion'])[
+            [
+                'kills', 'deaths', 'assists', 'dragons', 'barons',
+                'goldat10', 'goldat15', 'goldat20', 'golddiffat10', 'golddiffat15', 'golddiffat20',
+                'firstdragon', 'firstbaron', 'firsttower', 'towers', 'inhibitors',
+                'damagetochampions', 'damageshare', 'earnedgold', 'earned gpm'
+            ]
+        ].mean().reset_index()
+
+        return summary.to_string()

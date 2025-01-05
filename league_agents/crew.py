@@ -6,9 +6,10 @@ from crewai_tools import (
     WebsiteSearchTool
 )
 import os
-from .tools.csv_data_tool import CSVDataTool
+from .tools.csv_data_tool import PlayerResultsTool, TeamComparisonTool
 
-csv_data_tool = CSVDataTool()
+player_result_tool = PlayerResultsTool()
+team_comparison_tool = TeamComparisonTool()
 
 docs_tool = DirectoryReadTool(directory='./data')
 file_tool = FileReadTool()
@@ -47,7 +48,7 @@ class LeagueAgents:
     def team_performance_analyst(self) -> Agent:
         return Agent(
             config=self.agents_config["team_performance_analyst"],
-            tools=[csv_data_tool],
+            tools=[player_result_tool],
             verbose=True,
         )
 
@@ -63,7 +64,7 @@ class LeagueAgents:
     def lead_analyst(self) -> Agent:
         return Agent(
             config=self.agents_config["lead_analyst"],
-            tools=[],
+            tools=[team_comparison_tool],
             verbose=True,
         )
 
