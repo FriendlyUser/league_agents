@@ -1,9 +1,28 @@
 from crewai import Agent, Crew, Process, Task
 from crewai.project import CrewBase, agent, crew, task, before_kickoff, after_kickoff
-
+from crewai_tools import (
+    DirectoryReadTool,
+    FileReadTool,
+    WebsiteSearchTool
+)
+import os
 from .tools.csv_data_tool import CSVDataTool
 
 csv_data_tool = CSVDataTool()
+
+docs_tool = DirectoryReadTool(directory='./data')
+file_tool = FileReadTool()
+web_rag_tool = WebsiteSearchTool(
+    website='https://www.leagueoflegends.com/en-us/news/game-updates/',
+    embedder=dict(
+        provider="google", # or openai, ollama, ...
+        config=dict(
+            model="models/embedding-001",
+            task_type="retrieval_document",
+            # title="Embeddings",
+        ),
+    ),
+)
 
 @CrewBase
 class LeagueAgents:
@@ -24,7 +43,7 @@ class LeagueAgents:
     def meta_analyst(self) -> Agent:
         return Agent(
             config=self.agents_config["meta_analyst"],
-            tools=[csv_data_tool],
+            tools=[docs_tool, file_tool, web_rag_tool],
             verbose=True,
         )
 
@@ -32,7 +51,7 @@ class LeagueAgents:
     def lead_analyst(self) -> Agent:
         return Agent(
             config=self.agents_config["lead_analyst"],
-            tools=[csv_data_tool],
+            tools=[],
             verbose=True,
         )
 
@@ -57,9 +76,18 @@ class LeagueAgents:
 
     @crew
     def crew(self) -> Crew:
+        api_key = os.getenv("GOOGLE_API_KEY")
+        model_name = os.getenv("GOOGLE_MODEL_NAME")
         return Crew(
             agents=self.agents,
             tasks=self.tasks,
             process=Process.sequential,
             verbose=True,
+             embedder={
+                "provider": "google",
+                "config": {
+                    "api_key": api_key,
+                    "model_name":   model_name, 
+                }
+            }
         )

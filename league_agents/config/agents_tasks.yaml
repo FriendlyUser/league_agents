@@ -23,6 +23,8 @@ track_meta_shifts:
 final_prediction_task:
   description: >
     Integrate all data to make a comprehensive series prediction, including scoreline and win conditions.
+    In addition, act as an sportsbook, and provide betting insights for bettors with a final score prediction.
   expected_output: >
     Clear, concise betting insights for bettors with a final score prediction (e.g., 3-2).
+    Act give odds like 1.2 to 2.1 and provide explainations why.
   agent: lead_analyst

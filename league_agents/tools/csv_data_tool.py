@@ -2,9 +2,42 @@ from crewai.tools import BaseTool
 import pandas as pd
 from datetime import datetime, timedelta
 import os
+import time
 import gdown
 
 league_file_path = 'league_pro_games.csv'
+
+def download_csv():
+    """
+    Downloads the CSV file from Google Drive if the local file has not
+    been updated within the last 24 hours. Otherwise, it skips downloading.
+    The downloaded file is saved to `self.file_path`.
+    """
+
+    def is_file_updated_within_24_hours(file_path):
+        """
+        Checks if a file at the given path has been modified within
+        the last 24 hours.
+        
+        Args:
+            file_path (str): The path to the file.
+        
+        Returns:
+            bool: True if the file exists and has been updated within
+                    the last 24 hours, False otherwise.
+        """
+        if os.path.exists(file_path):
+            file_mod_time = datetime.fromtimestamp(os.path.getmtime(file_path))
+            return datetime.now() - file_mod_time < timedelta(hours=24)
+        return False
+
+    file_url = 'https://drive.google.com/uc?id=1IjIEhLc9n8eLKeY-yh_YigKVWbhgGBsN'
+
+    if not is_file_updated_within_24_hours(league_file_path):
+        gdown.download(file_url, league_file_path, quiet=False)
+        print("File downloaded successfully.")
+    else:
+        print("File is up to date.")
 
 class CSVDataTool(BaseTool):
     name: str = "csv_data_tool"
@@ -17,51 +50,23 @@ class CSVDataTool(BaseTool):
     )
     file_path: str = league_file_path
 
-    def download_csv(self):
-        """
-        Downloads the CSV file from Google Drive if the local file has not
-        been updated within the last 24 hours. Otherwise, it skips downloading.
-        The downloaded file is saved to `self.file_path`.
-        """
-
-        def is_file_updated_within_24_hours(file_path):
-            """
-            Checks if a file at the given path has been modified within
-            the last 24 hours.
-            
-            Args:
-                file_path (str): The path to the file.
-            
-            Returns:
-                bool: True if the file exists and has been updated within
-                      the last 24 hours, False otherwise.
-            """
-            if os.path.exists(file_path):
-                file_mod_time = datetime.fromtimestamp(os.path.getmtime(file_path))
-                return datetime.now() - file_mod_time < timedelta(hours=24)
-            return False
-
-        file_url = 'https://drive.google.com/uc?id=1IjIEhLc9n8eLKeY-yh_YigKVWbhgGBsN'
-
-        if not is_file_updated_within_24_hours(league_file_path):
-            gdown.download(file_url, league_file_path, quiet=False)
-            print("File downloaded successfully.")
-        else:
-            print("File is up to date.")
+    
 
     def _run(self, team1: str, team2: str) -> str:
         # if self
         if not os.path.exists(league_file_path):
-            self.download_csv()
+            download_csv()
         else:
             print("File already exists.")
         df = pd.read_csv(self.file_path)
         filtered_df = df[(df['teamname'] == team1) | (df['teamname'] == team2)]
 
-        comparison = filtered_df.groupby(['teamname'])[
-            ['golddiffat15', 'golddiffat25', 'firstbaron', 'firstdragon']
-        ].mean().reset_index()
+        # comparison = filtered_df.groupby(['teamname'])
+        # take the last 50 rows
+        comparison = filtered_df.tail(50)
 
+        # time sleep to avoid rate limit
+        time.sleep(30)
         return comparison.to_string()
 
     def filter_teams(self, team1, team2):
