@@ -13,8 +13,20 @@ csv_data_tool = CSVDataTool()
 docs_tool = DirectoryReadTool(directory='./data')
 file_tool = FileReadTool()
 web_rag_tool = WebsiteSearchTool(
-    website='https://www.leagueoflegends.com/en-us/news/game-updates/',
+    website='https://www.leagueoflegends.com/en-us/news/tags/patch-notes/',
     embedder=dict(
+        provider="google", # or openai, ollama, ...
+        config=dict(
+            model="models/embedding-001",
+            task_type="retrieval_document",
+            # title="Embeddings",
+        ),
+    ),
+)
+
+lol_fandom = WebsiteSearchTool(
+    website='https://lol.fandom.com//',
+      embedder=dict(
         provider="google", # or openai, ollama, ...
         config=dict(
             model="models/embedding-001",
@@ -43,7 +55,7 @@ class LeagueAgents:
     def meta_analyst(self) -> Agent:
         return Agent(
             config=self.agents_config["meta_analyst"],
-            tools=[docs_tool, file_tool, web_rag_tool],
+            tools=[docs_tool, file_tool, web_rag_tool, lol_fandom],
             verbose=True,
         )
 
@@ -83,7 +95,9 @@ class LeagueAgents:
             tasks=self.tasks,
             process=Process.sequential,
             verbose=True,
-             embedder={
+            # https://ai.google.dev/pricing#1_5flash
+            max_rpm = 15,
+            embedder={
                 "provider": "google",
                 "config": {
                     "api_key": api_key,

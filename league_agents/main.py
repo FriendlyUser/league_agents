@@ -15,9 +15,13 @@ def run():
     """
     Run the crew.
     """
+    # inputs = {
+    #     'team1': 'OKSavingsBank BRION',
+    #     'team2': 'Dplus KIA', 
+    # }
     inputs = {
-        'team1': 'OKSavingsBank BRION',
-        'team2': 'Dplus KIA', 
+        'team1': 'T1',
+        'team2': 'Gen.G', 
     }
     LeagueAgents().crew().kickoff(inputs=inputs)
 
