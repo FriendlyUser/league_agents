@@ -3,13 +3,18 @@ from crewai.project import CrewBase, agent, crew, task, before_kickoff, after_ki
 from crewai_tools import (
     DirectoryReadTool,
     FileReadTool,
-    WebsiteSearchTool
+    WebsiteSearchTool,
+    YoutubeChannelSearchTool
 )
 import os
 from .tools.csv_data_tool import PlayerResultsTool, TeamComparisonTool
 
 player_result_tool = PlayerResultsTool()
 team_comparison_tool = TeamComparisonTool()
+
+lck_video_tool = YoutubeChannelSearchTool(
+    youtube_channel_handle="@oplolreplay",
+)
 
 docs_tool = DirectoryReadTool(directory='./data')
 file_tool = FileReadTool()
@@ -56,7 +61,7 @@ class LeagueAgents:
     def meta_analyst(self) -> Agent:
         return Agent(
             config=self.agents_config["meta_analyst"],
-            tools=[docs_tool, file_tool, web_rag_tool, lol_fandom],
+            tools=[docs_tool, file_tool, web_rag_tool, lol_fandom, lck_video_tool],
             verbose=True,
         )
 
