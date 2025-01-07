@@ -57,11 +57,13 @@ class LeagueAgents:
             verbose=True,
         )
 
+    # grab the transcript of the video separately and dump to a text file?
+    # lol fandom is uneeded
     @agent
     def meta_analyst(self) -> Agent:
         return Agent(
             config=self.agents_config["meta_analyst"],
-            tools=[docs_tool, file_tool, web_rag_tool, lol_fandom, lck_video_tool],
+            tools=[docs_tool, file_tool, web_rag_tool],
             verbose=True,
         )
 
@@ -102,7 +104,7 @@ class LeagueAgents:
             process=Process.sequential,
             verbose=True,
             # https://ai.google.dev/pricing#1_5flash
-            max_rpm = 15,
+            max_rpm = 2,
             embedder={
                 "provider": "google",
                 "config": {
