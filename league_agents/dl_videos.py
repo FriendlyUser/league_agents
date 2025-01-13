@@ -17,7 +17,6 @@ def extract_teams(input_str):
     # Split by any remaining whitespace to get individual team names
     team_names = teams.split()
     
-    # Return the two team names as a tuple
     return tuple(team_names)
 
 # download the transcript, then apply the llm analysis to it, cut into early game
@@ -54,7 +53,8 @@ def find_interview_and_condense(youtube_data):
 # Fetch the API key from environment variables
 developer_key = os.environ.get("YOUTUBE_API_KEY")
 
-channel_name = "lolesportsvods"
+# channel_name = "lolesportsvods"
+channel_name = '@LCKglobal'
 
 print("developer_key", developer_key)
 # if developer_key is None: throw error
@@ -67,7 +67,7 @@ params_channel = {
     "part": "id,snippet",
     "q": channel_name,
     "type": "channel",
-    "maxResults": 1,
+    "maxResults": 100,
     "key": developer_key,
 }
 
@@ -87,7 +87,7 @@ params_videos = {
     "channelId": channel_id,
     "q": query,
     "type": "video",
-    "maxResults": 5,
+    "maxResults": 1000,
     "key": developer_key,
 }
 
@@ -115,10 +115,20 @@ for video in videos_response['items']:
     # Check if the videoID is already in the CSV, skip if it exists
     if video_id not in existing_video_ids:
         # if re.match(pattern, video_title):  # Assuming `pattern` is previously defined
-        matched_items.append(video)
+        # if we cant extract the team names just throw an error
+        try:
+            teams = extract_teams(video_title)
+            print(teams)
+            team_1 = teams[0]
+            team_2 = teams[1]
+            matched_items.append(video)
+        except Exception as e:
+            print(f"Error processing video title: {video_title}. Error: {e}")
+            print(video)
+            exit(1)
 
 # Open the CSV file in append mode ('a') so we don't overwrite existing data
-with open(csv_file_path, 'w', newline='', encoding='utf-8') as csvfile:
+with open(csv_file_path, 'a', newline='', encoding='utf-8') as csvfile:
     # Define the CSV writer
     csvwriter = csv.writer(csvfile)
     
@@ -133,7 +143,12 @@ with open(csv_file_path, 'w', newline='', encoding='utf-8') as csvfile:
         upload_date = video['snippet']['publishedAt']  # Assuming this is where upload date is
         
         # Extract team names from the video title (customize this based on your video title structure)
-        team_1, team_2 = extract_teams(video_title)
+        teams = extract_teams(video_title)
+        if len(teams) != 2:
+            team_1 = teams[0]
+            team_2 = teams[1]
+        else:
+            teams_1, teams_2 = teams
         
         # Write the data to the CSV
         csvwriter.writerow([team_1, team_2, video_title, video_id, upload_date])
