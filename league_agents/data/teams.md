@@ -22,32 +22,6 @@ Support	2024-11-18
 Nov 2024
 
 
-ORION BRO
-
-Morgan
-Top Laner	2024-11-18
-Nov 2023
-
-HamBak
-Jungler	
-Nov 2024
-
-Clozer		
-Mid Laner	
-Nov 2024
-
-Bull		
-Bot Laner	
-Nov 2024
-
-Hype	
-Bot Laner (+)	
-Nov 2024
-
-Pollu	
-Support	2025-11-17
-Feb 2024
-
 
 BNK FEARX
 
@@ -115,5 +89,110 @@ Bot Laner	2025-11-17
 Nov 2023
 
 BeryL
+Support	
+Nov 2024
+
+
+
+
+
+ORION BRO
+
+Morgan
+Top Laner	2024-11-18
+Nov 2023
+
+HamBak
+Jungler	
+Nov 2024
+
+Clozer		
+Mid Laner	
+Nov 2024
+
+Bull		
+Bot Laner	
+Nov 2024
+
+Hype	
+Bot Laner (+)	
+Nov 2024
+
+Pollu	
+Support	2025-11-17
+Feb 2024
+
+
+Nongshim RedForce
+
+
+
+Kingen	
+Top Laner	
+Nov 2024
+
+GIDEON	
+Jungler	
+Jan 2025
+
+Fisher	
+Mid Laner	2024-11-18
+May 2024
+
+Jiwoo	
+Bot Laner	2025-11-17
+Jun 2023
+
+Lehends		
+Support	
+Nov 2024
+
+
+DRX
+
+Rich		
+Top Laner	
+Nov 2024
+
+Sponge
+Jungler	2024-11-18
+Nov 2023
+
+Ucal
+Mid Laner	
+Nov 2024
+
+Teddy
+Bot Laner	2024-11-18
+Dec 2023
+
+Andil
+Support	
+Nov 2024
+
+Alive
+Sub/Sup	2024-11-18
+Jan 2025
+
+DNF
+
+
+DuDu
+Top Laner	2024-11-18
+Nov 2022
+
+Pyosik
+Jungler	
+Nov 2024
+
+BuLLDoG	
+Mid Laner	2024-11-18
+Nov 2022
+
+Berserker	
+Bot Laner	
+Nov 2024
+
+Life	
 Support	
 Nov 2024
