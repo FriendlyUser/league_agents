@@ -16,7 +16,7 @@ lck_video_tool = YoutubeChannelSearchTool(
     youtube_channel_handle="@oplolreplay",
 )
 
-docs_tool = DirectoryReadTool(directory='./data')
+docs_tool = DirectoryReadTool(directory='./data/games/')
 file_tool = FileReadTool()
 web_rag_tool = WebsiteSearchTool(
     website='https://www.leagueoflegends.com/en-us/news/tags/patch-notes/',
