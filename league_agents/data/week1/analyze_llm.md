@@ -336,3 +336,45 @@ This series went to three games, with DNF ultimately winning 2-1. The series was
 
 Let me know if you have any other questions.
 
+
+Okay, let's break down this series between BFX and KT as an esports analyst.
+
+**Match Overview:**
+
+This was a best-of-three series in the LCK Cup with the new fearless draft rules. This meant that once a champion was played, it could not be picked again by either team. This significantly influenced drafts and team compositions.  KT was generally considered the favorite going in, but BFX showed resilience.
+
+**Game 1:**
+
+*   **Domination by KT:** This game was a clear stomp by KT.  They drafted a composition with a lot of engage and lockdown.  Bdd on Zyra and Cuzz were able to control the early jungle, which lead to the team having strong map pressure. Perfect on Rumble dominated the top lane matchup and was a monster in teamfights. Way also had a strong performance on Braum.
+*   **BFX Struggles:** BFX's draft, while having team fighting power, didn't have an answer for the engage that KT brought with the Zyra Braum and Leona synergy. Raptor's early game aggression did net them a first blood but his death after for Raptors put bdd in a position to get a lead which was something that bfx couldn't recover from. Diablo also seemed uncomfortable on the Kaisa.
+*  **Closeness:** This match was NOT close.  KT were in control from the laning phase, converting early leads into objective control and snowballing into an easy win.  
+* **Key Moments**  Bdd's zyra pick and Cuzz's jungle clearing helped secure an early advantage for KT. Perfect's Rumble performance was also dominate in this game.
+
+**Game 2:**
+
+*   **BFX Resurgence:** BFX showed a complete turnaround and this is a very hard stomp in the opposite direction.   They drafted a composition with strong engage and scaling.  Diablo had a monster game on Zerri, constantly finding picks and punishing positioning mistakes.  Raptor on Wukong was also very impactful, finding early leads and controlling the tempo.
+*   **KT's Missteps:** KT's draft was not as synergistic, and their early lane assignments seemed to fail. Perfect on Jace went for a tankier build, which didn't seem to provide enough carry potential and he also failed to capitalize on his early lead. BD also had a very poor game where he constantly kept dying. This lead KT to losing all their lane match ups in the early game.
+*   **Closeness:** This match was NOT close. BFX, was ahead from the early game onwards and dominated in the teamfights with a fed zeri and wukong. KT couldn't get their scaling going due to BFX's aggression. 
+* **Key Moments** Diablo's early game aggression on zeri set the tempo for the game. Raptor's Wukong performances also helped enable BFX.
+
+**Game 3:**
+
+*   **KT Recovers:**  KT drafted a solid scaling composition with Jinx and Azir. While BFX showed a strong early game with a successful dive they ultimately didn't have an answer to KT's scaling and front to back teamfight. Bdd played another strong game on Azir, constantly pressuring via's Akali.
+*   **BFX's Fight:** BFX continued to try to look for early skirmishes, but KT did a good job of not falling too far behind and were able to effectively deny objectives as BFX was trying to get ahead. Diao's aggression on Zeri was not enough and he kept on being punished for his overaggresion.
+*   **Closeness:** This was the closest match of the series, though still not considered that close as KT was always favored in the match due to their late game scaling team. The game was back and forth in the early game as both teams were trading objectives back and forth.
+* **Key Moments** Bdd was able to be dominate in mid lane while Perfect continued to be a dominate front line player. KT was able to outscale bfx by the mid game and win.
+
+**Team Performance Rankings:**
+
+1.  **KT Rolster:** Despite dropping a game, KT showed their overall strength and experience.  They were able to bounce back after a disappointing game two.  Perfect and bdd had great series. Way also was able to show consistency on the support role. The team was able to show a good grasp of team comp and how to win in teamfights with their scaling strategy. Cuzz had a solid performance but seemed to struggle in game two with his positioning. 
+2.  **BNK FearX:** BFX had a strong series. They showed great team fighting and early game aggression.  However, they struggled in game one and three against the more controlled playstyle of KT. Diablo is a strong carry player that is willing to go all in, however, he needs to improve on his aggression to be consistently performing at a high level. Raptor was also a key player for BFX showing he is a mechanically gifted jungler. Kellen was okay in this series he was able to facilitate and engage with his team. Clear seems to be a weaker point on this roster, struggling to secure advantages for his team. Vicla also struggled in this series not showing an amazing performance.
+
+**Additional Notes:**
+
+*   **Fearless Draft:** This new draft format added a new dimension to the games, forcing teams to think more strategically about their Champion pools and composition.
+*   **Early Game Snowball:** This series further emphasized how impactful early game leads can be in the current meta.
+*   **Champion Mastery:** Both teams showed comfort on certain champions with some players having great performances on multiple champion picks.
+
+Let me know if you have any other questions or want to focus on a specific part of this series!
+
+
