@@ -1,3 +1,49 @@
+Hanhwa Life ESports
+
+Zeus	
+Top Laner	
+Nov 2024
+
+Peanut		
+Jungler	2025-11-17
+Nov 2023
+
+Zeka		
+Mid Laner	2025-11-17
+Nov 2022
+
+Viper		
+Bot Laner	2024-11-18
+Nov 2022
+
+Delight	
+Support	2025-11-17
+Nov 2023
+
+GENG
+
+
+Kiin
+Top Laner
+Nov 2024
+
+Canyon
+Jungler
+Nov 2024
+
+Chovy
+Mid Laner
+Nov 2024
+
+Ruler
+Bot Laner
+Nov 2024
+
+Duro
+Support
+Nov 2024
+
+
 
 KT ROLSTER
 
@@ -91,9 +137,6 @@ Nov 2023
 BeryL
 Support	
 Nov 2024
-
-
-
 
 
 ORION BRO

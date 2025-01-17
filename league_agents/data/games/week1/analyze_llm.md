@@ -161,16 +161,6 @@ The transcript covers two series:
             *   **Lehends (Support):** Had some great picks on the Blitz but nothing to really win the game.
     *   **Overall Team Performance:** DNF found ways to turn the game around with fantastic set up and great engage options.
 
-**BRO vs. Nongshim Prediction**
-
-Based on the transcripts and team performance, it's hard to say with confidence. However here's what I would say:
-
-*   **BRO Strengths:** Good early game aggression, coordinated play, strong individual lanes in Morgan, and Hype.
-*   **BRO Weaknesses:** Inconsistent team fight and objective control in the mid game.
-*   **Nongshim Strengths:** Good team fight setups and great lane control if they have the picks.
-*   **Nongshim Weaknesses:** Can fall apart on the map with poor rotations and getting caught out as a result.
-
-**Prediction:** Given BRO's strong early game and the inconsistent team fighting and rotations of Nongshim, I'm giving BRO the edge here with a 2-1 victory although it might end up going either way and depends on which teams find the consistency.
 
 **Additional Notes**
 
@@ -378,3 +368,200 @@ This was a best-of-three series in the LCK Cup with the new fearless draft rules
 Let me know if you have any other questions or want to focus on a specific part of this series!
 
 
+
+Okay, let's analyze the performance of Gen.G and Hanwha Life Esports (HLE) in their matches, using the provided transcript.
+
+Team Rosters
+
+Here are the team rosters as presented:
+
+Hanwha Life Esports (HLE):
+
+Zeus (Top)
+
+Peanut (Jungle)
+
+Zeka (Mid)
+
+Viper (Bot)
+
+Delight (Support)
+
+Gen.G (GEN):
+
+Kiin (Top)
+
+Canyon (Jungle)
+
+Chovy (Mid)
+
+Ruler (Bot)
+
+Duro (Support)
+
+Match Analysis
+
+Gen.G decisively won the series 2-0, demonstrating superior team coordination and individual skill, particularly from Ruler and Chovy.
+
+Game 1:
+
+Early Game: HLE secured an early kill on Kiin with a dive, but Gen.G quickly turned it around, demonstrating their focus on objective control. Gen.G were able to gain a considerable lead with an early six grub advantage.
+
+Mid Game: Gen.G continued to outmaneuver HLE, taking down a turret and securing the Dragon uncontested. The pace of the game felt slow, with Gen.G taking objectives at their own pace and HLE being unable to pressure them.
+
+Late Game: Gen.G utilized a combined push with Rift and then adakan, and then closed out the game with the Baron, leaving no avenues of comeback for HLE.
+
+Key Factors:
+
+Gen.G's superior control of objectives.
+
+Ruler's consistent damage output on Ash.
+
+HLE's inability to convert early skirmishes into a significant advantage.
+
+Chovy's ability to deny counterplay with well-timed ultimates.
+
+Game 2:
+
+Early Game: Ruler got first blood in a fight bot, showing his strength on a comfort pick in the Jinx. Again, they traded grubs for dragons, but Gen.G's map pressure allowed for a lead in both of these situations. HLE tried a dive mid for Baron control, which failed with the Gen.G rotation.
+
+Mid Game: Gen.G continued to maintain control, and Ruler's Jinx was too big of a threat for HLE. The map control and vision enabled them to find advantageous fights.
+
+Late Game: Gen.G were able to secure Elder, Baron, and then take down the HLE base for the game two victory.
+
+Key Factors:
+
+Ruler's exceptional performance on Jinx, turning into a hyper carry.
+
+Gen.G's ability to isolate and shut down HLE's members while protecting ruler.
+
+HLE's struggles to deal with Gen.G's superior team coordination and objective control.
+
+Chovy's consistency as a damage threat and tank when needed.
+
+Performance Analysis
+
+Gen.G:
+
+Ruler: A standout performer in both games, particularly with his Jinx in game 2. His positioning, damage output, and understanding of the comp was key.
+
+Chovy: Consistent in his lane, and providing high damage and good setup for his team. Showed great flexibility with the Gallo.
+
+Canyon: Did his job in setting up the team, with well times Smite steals and map control.
+
+Kiin: Played his role well, and was able to get a lead in the top lane.
+
+Duro: Performed as a consistent support for Ruler, enabling his carries and providing utility.
+
+Hanwha Life Esports (HLE):
+
+Zeus: Had some good plays, but was mostly zoned out from XP in side lanes, or could not push the advantage.
+
+Peanut: Made a few high-impact plays but was often caught out of position and overextended.
+
+Zeka: Was ineffective in both games, despite being on comfort picks. Could not create an impact and often got caught out.
+
+Viper: Had a decent early game on Caitlyn in game one and was unable to have much impact on Tristana in game two. Was too aggressive at times and did not respect Ruler's lead.
+
+Delight: Performed some nice engages and roams but overall was lacking. His Bard picks were not very effective.
+
+How Close Were the Matches?
+
+The matches were not very close, particularly the second. Here's the breakdown:
+
+Game 1: HLE had an early lead, but that slowly evaporated as Gen.G took control. While HLE had opportunities, Gen.G's superior coordination made it an easy victory.
+
+Game 2: Gen.G dominated from the start and completely shut down HLE's avenues for a comeback.
+
+Overall Performance
+
+Gen.G: Demonstrated excellent team coordination, individual skill, and flexibility. Their drafts were designed to allow for a smooth mid and late game, and they executed that plan flawlessly. Ruler had some incredible team fights and damage potential, and he was a strong carry for the team.
+
+Hanwha Life Esports (HLE): Looked disorganized, struggled with individual plays, and were unable to find answers to Gen.G's compositions. There were some problems with execution and a lack of respect for their opponents' compositions.
+
+Summary
+
+Gen.G looked like a well-oiled machine, showcasing a potent combination of individual talent and strategic teamwork. The return of Ruler has seemingly elevated the team to a new level. HLE, on the other hand, looked out of sync and struggled to execute their strategies. They need to re-evaluate their approach to both the draft and in-game execution. The difference in individual skill was also apparent, where Ruler, Chovy, and Juro outmatched HLE's members.
+
+Let me know if you would like a more detailed analysis or have any further questions.
+
+Okay, let's break down this match between Nongshim RedForce (Nongshim or Nim) and ORION BRO (BRO) as an esports analyst.
+
+**Team Rosters & Corrections**
+
+Based on the provided team data, the player names are all correct within the provided transcript. 
+
+*   **Nongshim RedForce:**
+    *   Kingen (Top)
+    *  GIDEON (Jungle)
+    *   Fisher (Mid)
+    *  Jiwoo (Bot) - referred to as jiu in the transcript
+    *   Lehends (Support) - often referred to as lens in the transcript
+
+*   **ORION BRO:**
+    *   Morgan (Top)
+    *   HamBak (Jungle) - often referred to as hamach in the transcript
+    *   Clozer (Mid)
+    *   Bull (Bot) - referred to as bll in the transcript
+    *   Hype (Bot - substitute) - only mentioned
+
+**Match Analysis**
+
+The series between Nongshim and BRO was a rollercoaster of momentum shifts, but Nongshim ultimately secured a 2-0 victory. Here's a more detailed look:
+
+**Game 1:**
+
+*   **Early Game:** BRO had a strong start, securing early grubs, a first blood, and a dragon. They focused on early aggression and objective control with their Nocturne composition. Lehends' Elise support pick was impactful early with it's burst damage and engage.
+*   **Mid Game:** Nongshim started to find their footing, using Kingen's Rumble to control team fights and Fisher's smolder started to come online. The game featured constant back-and-forth swings. Both teams had trouble stringing together a dominant period.
+*   **Late Game:** Despite a strong effort from BRO, Nongshim's scaling composition, especially Kingen and Fisher's scaling damage, allowed them to eventually pull ahead. BRO's attempt to dive the backline was ultimately unsuccessful, and Nongshim leveraged their superior damage output to close out the game.
+    *   **Key Factors:**
+        *   Kingen's consistent damage output on Rumble.
+        *   Lehends' Elise providing early pressure and engage.
+        *   Fisher's Smolder scaling into the late game as an insurance policy.
+        *   BRO's inability to capitalize on early advantages and protect their backline effectively.
+
+**Game 2:**
+
+*   **Early Game:** Both teams adopted scaling team compositions, with BRO focusing on a heavy poke composition (corki, Ezreal) and Nongshim picking Gangplank. The early game was a bit messy, with both teams making mistakes in their rotations. The jungle was fairly contested.
+*   **Mid Game:** BRO started to gain a small advantage, controlling objectives and putting pressure on towers, but Nongshim were able to secure an early adakan. 
+*   **Late Game:** The teams traded objectives and kills, with the gold being relatively close, before Nongshim was able to secure Baron and Elder, allowing them to close out the game due to the immense scaling of kingan and Fisher. BRO could not effectively deal with Nongshim's carry threat and were ultimately overrun.
+    *   **Key Factors:**
+        *   Kingen's strong Gangplank performance and scaling.
+        *   Fisher's late game damage and ability to avoid being caught.
+        *   BRO's inability to deal with the pressure from Nongshim's scaling carries.
+
+**Performance Analysis**
+
+*   **Nongshim RedForce:**
+    *   **Kingen:** Was the standout performer in both games, delivering consistent damage and carrying team fights. His Rumble and Gangplank plays were instrumental in their victories.
+    *  **GIDEON** : Played a supportive role for Kingen, and got caught out a few times. Made some good engages.
+    *   **Fisher:** Had some early struggles with positioning but scaled well in both games, providing significant damage and pressure. In the first game, the smolder was an insurance policy and in the second, played a more supportive damage carry role.
+    *   **Jiwoo:** Was the target of much of BRO's aggression and could not scale into a significant damage threat.
+    *   **Lehends:** Had a high impact early game in game one on Elise, providing pressure and engage.
+
+*   **ORION BRO:**
+    *   **Morgan:** Struggled throughout the series, particularly in the early games, where he fell behind in lane and was consistently targeted by dives.
+    *   **HamBak:** Made a few good plays, but could not stop the snowballing of Nongshim's carries.
+    *   **Clozer:** Had a good individual performance in both games, playing Aurora, but his team could not capitalize on the individual advantages he could get, and could not snowball his lead.
+    *   **Bull:** Had a decent but not exceptional performance, and did not have the opportunity to play his favored kalista.
+    *   **Hype:**  Was not a factor and did not play.
+
+**How Close Were the Matches?**
+
+While the final scores were 2-0, the series was not a complete stomp. The games were characterized by:
+
+*   **Momentum Swings:** Both games featured multiple lead changes and periods where either team looked dominant.
+*   **Messy Fights:** The team fights were often chaotic, with players making aggressive dives.
+*   **Individual Outplays:** Both teams had individual outplays and big moments that helped them gain temporary advantages.
+
+However, Nongshim's stronger scaling compositions, and Kingen's and Fisher's carry ability, allowed them to capitalize on these moments and pull ahead at the end. BRO's lack of consistency and difficulty in protecting their backline ultimately cost them the series. In short:
+
+*   **Game 1:** Had the appearance of a stomp, but was a close game until the end.
+*   **Game 2:** Was very close until Nongshim pulled ahead in the final fights.
+
+**Overall Performance**
+
+*   **Nongshim RedForce:** Showed improved team synergy and scaling potential, particularly with Kingen leading the charge. Lehends' unorthodox picks were impactful in the early game.
+*   **ORION BRO:** Continued to show their volatile style of play. Failed to adapt their style or protect their carries. Still have much improvement to show.
+
+Let me know if you have any other questions or would like a more detailed breakdown of a specific aspect of the match!
