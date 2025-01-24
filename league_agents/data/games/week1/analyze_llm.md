@@ -684,3 +684,69 @@ Conclusion:
 This series was a major upset. BRO was able to dismantle GENG's usual strategies and outplay them at every turn. This victory is a major confidence boost for BRO and shakes up the LCK Cup standings. GENG, on the other hand, need to go back to the drawing board and figure out what went wrong this match. They showed a worrying lack of flexibility and a habit of playing into their opponents hands. They may need to adjust their game plan.
 
 This has been a comprehensive analysis. If you have any more questions or want to delve deeper into a specific aspect, just let me know.
+
+Alright, let's break down this NS vs HLE series like a seasoned analyst. We'll look at individual player performances and assess their impact.
+
+**Hanhwa Life Esports (HLE)**
+
+*   **Zeus (Top):**
+    *   **Game 1:** Faced a lane swap initially.  Did well to grab a solo kill and maintain a small CS lead against kingen on the Y. Seemed to be a primary target for dives but was able to use the map to continue generating pressure. Good team fights with solid ultimate usage.
+    *  **Game 2:**  Chose Aftershock and faced kingen in lane with a Rumble pick, which didn't go well.  Did use the hex gate to make plays on the map later in the game, good pressure on the side lane and good ults for teamfights but it seemed a little bit too little too late.
+    *   **Overall:**  Zeus performed well especially in game 1, utilizing his team mates for map control and the split push but was unable to generate the same level of pressure on game 2, not being able to deal with the Rumble damage, this seems like a small error from the coaching staff. He had good pressure both on side lanes and in the mid game. *Verdict: Good*
+
+*   **Peanut (Jungle):**
+    *   **Game 1:** Decent control of his jungle, managed to grab two grubs and keep some consistency early on. Poor execution during dives, particularly on the bot lane where he died to the turret. Good objective control and made a presence in team fights with the maokai ult, setting up his carries.
+    *   **Game 2:**  Good level 6 gank and was able to consistently pressure Gideon out of the jungle early on. Managed to keep up with Gideon on Smite trades for objectives. Used his ultimate to control fights, giving opportunities to his team for picks.
+    *   **Overall:** Peanut had some shaky moments, notably the poor execution on a turret dive and the Smite miss, but overall a consistent presence with good objective control. *Verdict: Good*
+
+*   **Zeka (Mid):**
+    *   **Game 1:** Had trouble early against the ambessa, getting first blooded and falling behind in farm. His positioning improved in the mid-to-late game to the point of securing double kills for his team mates. Used his ultimate effectively to set up team fights.
+    *   **Game 2:**   Went with the Air mid and the team did well to give him some room, securing kills with the ultimate to get the early lead. Did great to consistently land taunts in the mid game and the shuffle onto multiple opponents.
+    *   **Overall:** Had some early-game struggles but scaled into team fights in both games. *Verdict: Good*
+
+*   **Viper (Bot):**
+    *   **Game 1:**  Deathless in the last series and had consistent high damage and positioning, making him a huge threat in team fights and the primary damage dealer. 
+    *   **Game 2:**  Had a great early game, building a consistent lead in CS, had a weird interaction with a ult being left off, but was able to build an item set that did well to mitigate incoming damage.
+    *   **Overall:** Viper was consistently the team's primary damage threat throughout this series and delivered consistent performances. *Verdict: Excellent*
+
+*   **Delight (Support):**
+    *  **Game 1:** Aggressive play style and was able to get an early solo kill on J. Some poor positioning made him get caught out of position. Good follow-up with his ultimate, creating a great engage.
+    *  **Game 2:** Consistent pressure and good positioning. Did misposition on a dive which ended up costing the team a little bit of a loss. Had one specific moment of poor use of tidal wave but good damage and peel on the Lux to keep Viper safe.
+    *   **Overall:** Delight played aggressively but was not perfect, having some hiccups, specifically during the dive. Overall, a consistent and good support. *Verdict: Good*
+
+**Nongshim RedForce (NS)**
+
+*   **Kingen (Top):**
+    *   **Game 1:** The Rumble pick came with some nice lane pressure and some good ult usage.
+    *   **Game 2:**  Had the opportunity to play a flex Gallo top, did very well in lane and pushed back Z. Landed some good ultimate usage in team fights.
+    *   **Overall:** Kingen had good side lane presence with Rumble, and did well with the Gallo in terms of trading and applying pressure. *Verdict: Good*
+
+*   **GIDEON (Jungle):**
+    *  **Game 1:** Secured two grubs, but was largely shut down by Peanut in the jungle. Did have a nice engage on viper later on in the game which helped out with the baron steel.
+    *   **Game 2:** Did try a few pbs in the jungle but was met with very limited success. Did do well to trade Smite for objectives. Good follow-up engages onto the main target, viper, which was consistent.
+    *   **Overall:** Gideon's performance was a little bit inconsistent, being shut down by peanut in game 1 but made a large presence in game 2 and was able to secure a few objectives and trades. *Verdict: Decent*
+
+*   **Fisher (Mid):**
+    *  **Game 1:** Was first blooded very early, had a low impact on team fights and had some limited damage output.
+    *   **Game 2:** Faced a very passive lane and did not really have many opportunities to get ahead. Did have some good ult usage in team fights, setting up J and lens for a few picks.
+    *   **Overall:**  Fisher had trouble all around. Did not generate good opportunities in the side lanes or team fights. *Verdict: Below Average*
+
+*   **Jiwoo (Bot):**
+    *   **Game 1:**  Struggled early with farm but got back in the game after a successful bot dive.  After, did not have that much impact in team fights.
+    *   **Game 2:**  Luan/Nami against the Cait Lux, struggled to get any pressure or leads and got completely shut down in the early game. Did do well to have a presence in the mid game team fights.
+    *   **Overall:** Jiwoo had some really rough moments during both games, specifically early on and really struggled to make much of an impact. *Verdict: Below Average*
+
+*   **Lehends (Support):**
+    *  **Game 1:** Aggressive with his hooks but did not find consistent opportunities for engages. Was caught out of position by the light, who solo killed him. Good combo ult in the river that turned the game around and put HLE on the back foot.
+    *   **Game 2:** Had a good opportunity to get into the side lane and make a pick with the tidal wave. Good consistent follow-up and poke in team fights and set up some great picks for J and fisher.
+    *   **Overall:** Lehends showed a few glimpses of his aggressive support style but was overall somewhat inconsistent this series. *Verdict: Decent*
+
+**Final Thoughts**
+
+*   **HLE:** Showed strong individual talent, especially from Viper, and a good understanding of team fighting. They had moments of miscommunication and over-aggression but had the tools to push them over the finish line.
+*   **NS:**  Had some moments of promise, particularly the comeback in game one, but were ultimately outclassed in team fighting and objective control. Their early game struggles with the draft were too big to come back from.
+*   **MVP:**  Viper is the clear standout, showing his consistency and ability to carry.
+
+Let me know if you'd like any further analysis on specific plays or aspects of the game!
+
+
