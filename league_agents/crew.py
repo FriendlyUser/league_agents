@@ -1,4 +1,4 @@
-from crewai import Agent, Crew, Process, Task
+from crewai import Agent, Crew, Process, Task, LLM
 from crewai.project import CrewBase, agent, crew, task, before_kickoff, after_kickoff
 from crewai_tools import (
     DirectoryReadTool,
@@ -9,38 +9,56 @@ from crewai_tools import (
 import os
 from .tools.csv_data_tool import PlayerResultsTool, TeamComparisonTool
 
+gemini_api_key = os.getenv("GEMINI_API_KEY")
 player_result_tool = PlayerResultsTool()
 team_comparison_tool = TeamComparisonTool()
 
 lck_video_tool = YoutubeChannelSearchTool(
     youtube_channel_handle="@oplolreplay",
+    config=dict(
+        embedder={
+            "provider": "google",
+            "config": {
+                "model":  "models/text-embedding-004"
+            }
+        }
+    )
 )
+
 
 docs_tool = DirectoryReadTool(directory='./data/games/')
 file_tool = FileReadTool()
 web_rag_tool = WebsiteSearchTool(
     website='https://www.leagueoflegends.com/en-us/news/tags/patch-notes/',
-    embedder=dict(
-        provider="google", # or openai, ollama, ...
-        config=dict(
-            model="models/embedding-001",
-            task_type="retrieval_document",
-            # title="Embeddings",
-        ),
-    ),
+    config=dict(
+
+        embedder={
+            "provider": "google",
+            "config": {
+                "model":  "models/text-embedding-004"
+            }
+        }
+    )
 )
+
+
+
 
 lol_fandom = WebsiteSearchTool(
     website='https://lol.fandom.com//',
-      embedder=dict(
-        provider="google", # or openai, ollama, ...
-        config=dict(
-            model="models/embedding-001",
-            task_type="retrieval_document",
-            # title="Embeddings",
+    config=dict(
+        embedder=dict(
+            provider="google", # or openai, ollama, ...
+            config=dict(
+                model="models/embedding-001",
+                task_type="retrieval_document",
+                # title="Embeddings",
+            ),
         ),
-    ),
+    )
+
 )
+
 
 @CrewBase
 class LeagueAgents:
@@ -55,6 +73,13 @@ class LeagueAgents:
             config=self.agents_config["team_performance_analyst"],
             tools=[player_result_tool],
             verbose=True,
+            embedder={
+                "provider": "google",
+                "config": {
+                    "api_key": gemini_api_key,
+                    "model":  "models/text-embedding-004", 
+                }
+            }
         )
 
     # grab the transcript of the video separately and dump to a text file?
@@ -65,6 +90,13 @@ class LeagueAgents:
             config=self.agents_config["meta_analyst"],
             tools=[docs_tool, file_tool, web_rag_tool],
             verbose=True,
+             embedder={
+                "provider": "google",
+                "config": {
+                    "api_key": gemini_api_key,
+                    "model":  "models/text-embedding-004", 
+                }
+            }
         )
 
     @agent
@@ -73,6 +105,13 @@ class LeagueAgents:
             config=self.agents_config["lead_analyst"],
             tools=[team_comparison_tool],
             verbose=True,
+             embedder={
+                "provider": "google",
+                "config": {
+                    "api_key": gemini_api_key,
+                    "model":  "models/text-embedding-004", 
+                }
+            }
         )
 
     @task
@@ -109,7 +148,7 @@ class LeagueAgents:
                 "provider": "google",
                 "config": {
                     "api_key": api_key,
-                    "model_name":   model_name, 
+                    "model":  "models/text-embedding-004", 
                 }
             }
         )
