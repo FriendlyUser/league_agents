@@ -867,3 +867,114 @@ Okay, let's break down this Telecom War between T1 and KT Rolster, analyzing eac
 **Conclusion**
 
 The Telecom War delivered some unexpected results, with Smash’s impressive debut on T1 and KT struggling to match T1’s consistency. While KT showed potential, especially in game two, they ultimately fell short against T1's superior teamwork and map control. T1 showed excellent adaptability as a whole and had players stepping up across all roles. T1 is also showing that they have a roster that is incredibly deep with multiple players capable of stepping up.
+
+
+Okay, let's analyze the provided transcript to understand the performances of Dplus Kia (DK) and Hanhwa Life Esports (HLE) in their match, with a focus on individual players and key moments, as well as the closeness of the games and draft analysis
+
+**General Observations**
+
+*   **DK's Cohesion and Adaptability:** Dplus Kia demonstrated a strong ability to execute different strategies and adapt to various situations. They showed impressive coordination in team fights, pick-offs, and objective control. They also had a level of flexibility in their drafts, enabling different styles and counter play.
+*   **HLE's Strengths and Weaknesses:** Hanhwa Life Esports had individual moments of brilliance, but their decision-making during crucial objective fights was not up to par. While they had a few early game leads, they struggled to maintain them, with D+ being able to capitalize on any perceived missteps. They seemed to have more of a mid-game focus, but didn't really show it off.
+*  **Individual Performances:**
+    *  **DK Lucid (Jungler):** Lucid was repeatedly cited as a strong player for DK, controlling the objectives with good Smite control and also setting up numerous key plays with his champion. He had a very strong series overall and was named Player of the Match.
+    *   **DK ShowMaker (Mid Laner):** Showmaker continued to be a consistent pillar for DK, and while he was punished in some fights, he was able to take control of the map. He was able to provide strong poke, utility and follow up for his team. He was also cited by chronicler as having a return to form.
+    *   **DK Barrel (Support):** Barrel showcased a mix of engaging and disengaging plays, but also had some over aggressive moments. He had very high highs and low lows, but was ultimately successful.
+     *  **DK Aiming (Bot Laner):** Aiming had some incredible performances on the Zigs. He was a hypercarry threat and a strong force in the side lane.
+    *   **DK Shiu (Top Laner):** Shiu had a rough start to the series but still managed to be a valuable asset to his team especially in lane and in providing pressure.
+     *   **HLE Zeka (Mid Laner):** Zeka had mixed results, showing moments of individual skill and outplay potential, but also made key mistakes that cost his team. His performance was a bit uneven compared to his reputation.
+    *  **HLE Viper (Bot Laner):** Viper was more of a force in game two, he was able to make good plays around objectives and had some notable mechanical plays.
+    *   **HLE Peanut (Jungler):** Peanut had some good engages, but overall his performance was overshadowed by Lucid’s jungle control and his inability to get Smite fights off.
+    *   **HLE Delight (Support):** Delight had some moments of brilliance but also misplayed and missed key opportunities in engages, which did cost his team.
+    *   **HLE Zeus (Top Laner):** Zeus struggled to make a significant impact and seemed to have difficulty in the Jax matchups. He had some moments but was largely a passenger.
+
+**Game-by-Game Breakdown**
+
+**Game 1: Dplus Kia Victory**
+
+*   **Closeness:** Not close; D+ established an early lead and continued to control the game at each stage. They demonstrated superior macro and objective control. HLE made some moves on baron to try to claw back in but were ultimately unsuccessful.
+*   **Team Performance:**
+    *  **DK:** D+ demonstrated excellent early game coordination and map control. ShowMaker and Lucid successfully punished HLE in their dives. D+ were able to trade effectively and capitalize on almost every misstep by HLE.
+    *   **HLE:** HLE's early game plan failed after a level one trap, and the bot lane also lost an early dive. HLE was forced to play from behind but lacked the tools to make it back and had a lot of individual misplays that were punished.
+*   **Key Moments:** The level one dive was a massive swing, resulting in first blood for DK. The early dive onto Peanut in the top lane left him vulnerable and further increased D+ lead. The well-timed response to the atakam steal secured the game.
+
+**Game 2: Hanhwa Life Victory**
+
+*   **Closeness:** Close; HLE had a slow start in this game but fought their way back into a position where they were able to pull the win out. A key component of that win was the team fights where they were able to pick up key members of D+ and use their bulk to take control.
+*   **Team Performance:**
+    *   **HLE:** HLE showcased improved coordination in team fights and successfully baited DK into overcommitting. They leveraged their objective control to comeback.
+    *   **DK:** D+ demonstrated strong team fight setups, but they were not able to get those fights to happen in key locations. They struggled to find the angles and were outmaneuvered.
+*   **Key Moments:** The early dives set DK up, but HLE took the tempo in their favor by picking off key members of D+. The successful defense of Aon and the subsequent team fight win allowed HLE to win out.
+
+**Game 3: Dplus Kia Victory**
+
+*   **Closeness:** Not close; DK took a very decisive lead in this game and never looked back. HLE tried to make plays but it was all for not. They were never able to find the key engagements to get them back into the game.
+*   **Team Performance:**
+    *   **DK:** They utilized their drafting and the strength of their mid and jungle to have control from the get go. D+ were able to isolate and pick off targets in the lanes and around objectives, consistently putting HLE behind.
+    *  **HLE:** The attempt to get a steal on baron was their last gasp to get back in the game, as they ultimately failed to generate those comeback moments in team fights that had been their saving grace.
+*   **Key Moments:** D+ successfully isolated key members of HLE early on, snowballing the game into a big gold lead. This set them up for map control and constant objective pushes. The Baron take secured their lead and the series.
+
+**Overall Series Analysis**
+
+*   **Dplus Kia:** They demonstrated high-level strategy and tactical gameplay, adapting well to different situations. Their drafting was excellent and highlighted the strengths of the team while showcasing the potential that each of the players had. They were able to play well from ahead and were very good in the 2v2 or 3v3 skirmishes.
+*   **Hanhwa Life Esports:** They struggled with consistency and individual misplays. While they had some good moments, particularly in game two, they lacked a strong vision game and macro strategy. They were forced into a spot where they had to react and failed to match D+'s proactive plays. The team really relied on singular moments and struggled to be consistent.
+
+**How Close Were the Matches?**
+
+*   **Game 1:** Not close; D+ controlled the game from early on.
+*   **Game 2:** Close; HLE came back after falling behind to secure the win.
+*   **Game 3:** Not close; D+ maintained a decisive lead and snowballed for a fairly easy win.
+
+**Conclusion**
+
+Dplus Kia showcased their adaptability, strategic planning, and superior map control. While Hanhwa Life Esports demonstrated moments of their strength, they did not have the necessary consistency and proactive engagements to match D+. D+ Kia really did shine in this series as a team that was ready for every challenge and has a strong understanding of how they want to approach objectives.
+
+Okay, let's break down the series between Gen.G and DNF, analyzing each game based on the provided transcript, player data, and the general observations in the chat.
+
+**General Observations**
+
+*   **Gen.G's "Angry" Response:**  Coming off a loss to Bro, Gen.G were described as "angry" and displayed a more dominant, controlled play style. They were particularly good at capitalizing on small mistakes and creating snowball leads. They made their goal to deny their opponents any opportunities to turn it around.
+*   **DNF's Inconsistency:** DNF had moments of good planning and individual performances, but struggled to maintain a consistent approach. They seemed to lack a strong cohesive identity, with the team often making individual overextensions that cost them big advantages. DNF had some really good players on their roster but were unable to put that together.
+*   **Ruler's Form:** Ruler, after moving back to Gen.G, was a major focus. He consistently performed well, especially in game two, showcasing a strong ability to dominate. However he has yet to get the Penta that he is so very passionate about.
+*  **Individual Performances:**
+    *  **Gen.G Ruler (Bot Laner):** Ruler was highlighted as a key player for Gen.G, displaying exceptional carry potential on Corki and Ezreal. However, the pentakill still alludes him.
+    *   **Gen.G Chovy (Mid Laner):** Chovy showcased excellent map awareness and pickoff potential on his favored champions. He was able to effectively neutralize and pick off threats. He is the kind of player that can impact the entire map in a way that other mids cannot.
+    *   **Gen.G Canyon (Jungler):** Canyon had a strong series, and while he had a rough start in game two he demonstrated great jungle control and high kill participation. He is a very mobile jungler who is able to exert his will across the map.
+    *   **Gen.G Duro (Support):** Duro showed a great understanding of how to set up picks for his team and keep his team safe during skirmishes. He was also excellent at denying vision.
+    *   **Gen.G Keen (Top Laner):** Keen had a solid performance, often playing defensively in the side lanes to get value and he punished the DNF top laner when he was over extended and also displayed great knowledge of the Poppy champion.
+    *  **DNF pan (Mid Laner):** Pan had a relatively rough debut. Despite some clever plays, he was outclassed by Chovy and lacked experience in high-pressure situations. He does have potential and played well early on in game one but really struggled as the game went on.
+    *  **DNF Dudu (Top Laner):** Dudu had moments of solid play in lane, but was often caught out of position in team fights. Ultimately, he was unable to translate individual plays into team wins.
+    *   **DNF Berserker (Bot Laner):** Berserker had one notably great game, but his early game lane setups struggled, and while he had high moments he wasn't as consistent as his team needed him to be.
+    *   **DNF Piosik (Jungler):** Piosik had mixed results, making some decent attempts but generally being outmaneuvered by Canyon. He looked to create opportunities but his team lacked the tools to follow through with them.
+    *   **DNF Life (Support):** Life had some good moments as a set up support, however he was often caught out as well and seemed to struggle to generate as much value as he needed to.
+
+**Game-by-Game Breakdown**
+
+**Game 1: Gen.G Victory**
+
+*   **Closeness:** Not close. Gen.G had a slow start to the game but took a big lead in the mid game and didn't let up in the late game. Once Gen took control they snowballed it into a decisive victory.
+*  **Team Performance:**
+    *   **Gen.G:** They showed early aggression in the lanes but were punished by DNF, which forced them into a slow game where they were then able to capitalize in the mid game. Ruler and Chovy were the two carries and their individual skill pushed them over the line.
+    *   **DNF:** DNF’s game plan was not successful in this game as they struggled to create leads in the lanes and after falling behind in the mid game the team didn’t find a way to turn it around and were largely ineffective. DNF also struggled with objective control, while they got the first blood, it did not lead into any greater advantages.
+*   **Key Moments:** Canyon's solo play that led to first blood put his team behind, but they were still able to capitalize with a fantastic play from Canyon to create an opening for the take the lead.
+
+**Game 2: Gen.G Victory**
+
+*   **Closeness:** This game felt much more dominant from Gen.G. While DNF made some nice plays, they were not able to generate a comeback. Gen had total control of this match and never let DNF back in.
+*   **Team Performance:**
+    *  **Gen.G:** They showed exceptional map control and team fighting skill and they dominated DNF. Ruler also had a very strong performance, which he was able to use to take down multiple turrets and objectives.
+    *   **DNF:** DNF had a good start with a strong level one plan that resulted in their bottom lane getting a key advantage, but were unable to translate it to a mid or late game performance. The teams mid and jungle were constantly under pressure, leading them to misplay in team fights and be isolated.
+*  **Key Moments:** Gen.G's ability to quickly take down the Baron after their key team fight win completely closed out the game. A key mistake from piosik that resulted in a death also led to a big objective and gold lead for Gen.
+
+**Overall Series Analysis**
+
+*   **Gen.G:** They have a very strong and organized play style with great communication. Their side laners and mid laners have excellent mechanical skill, enabling them to make plays from a variety of angles. The team is also very strong at objective prioritization.
+*   **DNF:** They are a team that needs more cohesion and experience in pro play. While they were able to show some promise, their individual errors and lack of a strong identity as a team is holding them back.
+
+**How Close Were the Matches?**
+
+*   **Game 1:** Not close; although the game was slow to start, Gen.G was dominant.
+*  **Game 2:** Not close; Gen.G secured a complete win with great execution of their plan.
+
+**Conclusion**
+
+This series was a demonstration of Gen.G's ability to control the game flow and execute their plan, with consistent strong play. DNF showed some promise at times, but ultimately struggled with consistency and misplays that cost them key objectives. Gen G showcased great objective control and strong team fighting throughout the series.
