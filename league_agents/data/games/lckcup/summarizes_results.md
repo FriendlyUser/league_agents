@@ -750,3 +750,120 @@ Alright, let's break down this NS vs HLE series like a seasoned analyst. We'll l
 Let me know if you'd like any further analysis on specific plays or aspects of the game!
 
 
+
+Okay, let's break down this series between Fearx (BNK) and DRX, analyzing each game based on the provided transcript and player data.
+
+**General Observations**
+
+*   **DRX's Draft Issues:** Throughout the series, DRX showed inconsistency in their drafts. They struggled when the draft put them at an early disadvantage, or when their team comp lacked clear synergy. However, when they had a playable draft, they played it very well. They seem to rely heavily on individual skill and clutch plays.
+*   **BNK's Synergy Problems:** BNK's biggest weakness seems to be a lack of a clear voice and consistent decision-making in team fights. They often looked disorganized and struggled to execute dives effectively. While they showed moments of brilliance, especially in the early game, they had a hard time translating leads into victories.
+* **Individual Performances:**
+    *   **DRX Andil (Support):** Andil was highlighted as a key player for DRX throughout this series. His vision control, especially around objectives, was consistently praised. He often set up crucial picks for his team.
+    *   **DRX LazyField (Bot Laner):** LazyField had a great first game in the series, and when given a strong pick, he did quite well. However, he struggled in lanes where he was put in a hard matchup.
+    *  **DRX Ucal (Mid Laner):** Ucal showed flashes of brilliance, especially on champions he was comfortable with. He is a player that seems to get the team around him in game with calls and playmaking ability.
+    *   **DRX Sponge (Jungler):** Sponge showed an impressive performance throughout the series, especially on Lilia in game 3. He was highlighted for his jungle control, proactive plays, and ability to enable his team.
+    *   **BNK Diablo (Bot Laner):** Diablo had a very strong performance in game two, showcasing his mechanical skill and knowledge of his champion limits, specifically on varus. However, his performance fluctuated, with game 3 being rough.
+    *   **BNK Clear (Top Laner):** Clear had his moments, especially on Jax, but was also susceptible to collapses and lacked consistency throughout the series.
+    *   **BNK Raptor (Jungler):** Raptor had some great moments with Wukong, but lacked the same consistency, especially in the late game.
+    *   **BNK Kellin (Support):** Kellin struggled at times, especially in game one with Leona, not hitting his abilities and finding those opportunities to take.
+
+**Game-by-Game Breakdown**
+
+**Game 1: DRX Victory**
+
+*   **Closeness:** The game was not very close, DRX took full control early and never let up. The only somewhat close moment was when BK managed to pull out a Baron, but even then it had very little impact.
+*   **Team Performance:**
+    *   **DRX:** DRX showed strong early game macro play and map control, especially due to Andil's vision control. They successfully snowballed the game with great picks. LazyField on Kaisa was effective, especially when they were ahead.
+    *   **BNK:** BNK's early game level 1 plan had some good value, but they struggled to adapt after early misplays from their jungler. They had good setups around objectives but failed to capitalize. Their lack of coordination and individual misplays led to their downfall.
+*   **Key Moments:** The early gank by Sponge onto Vicla set DRX up for an early lead. A key tower dive on the top side of the map resulted in multiple kills for DRX, and a collapse onto top where Clear was heavily punished.
+
+**Game 2: BNK Victory**
+
+*   **Closeness:** This game was quite messy and felt closer than game 1, with some big back-and-forth swings. However, it was fairly decisive, with BNK taking control early and maintaining it.
+*   **Team Performance:**
+    *   **BNK:** BNK's bottom lane with Diablo and Kellin found big leads in game with an early dive. Diablo was the star player and single handedly carried them to a win.
+    *   **DRX:** DRX struggled to play from behind, as their draft did not allow for them to turn the tides. Their picks and skirmish attempts seemed a little disjointed, and they often got punished.
+*  **Key Moments:** Dia's early solo kills and aggressive play gave BNK a significant lead. Several failed dives and gank attempts from DRX only fueled BNK's gold lead. The two early kills from Diablo were huge in allowing him to get ahead in the lane and snowball the game.
+
+**Game 3: DRX Victory**
+
+*   **Closeness:** This was less close than game two. Even though the game did drag on, DRX were in control for much of it due to a massive Lilia lead.
+*   **Team Performance:**
+    *   **DRX:** Sponge on Lilia had a near-perfect game, and the rest of the team played extremely well around it. DRX had fantastic tempo control, constantly maintaining pressure while playing for picks. They were able to successfully shut down most of BNK's engage attempts.
+    *   **BNK:** Clear was caught out several times in key moments, disrupting their ability to engage and create opportunities in the late game. The team struggled to find a good team fight due to being constantly zoned by the Lilia and having very little poke and engage outside of clear.
+*  **Key Moments:** Sponge's ability to snowball on Lilia and maintain tempo control was the defining factor. A key misplay by Clear who failed to wall hop ended up being fatal to the team. DRX’s vision and pick potential allowed them to control the pace of the game.
+
+**Overall Series Analysis**
+
+*   **DRX:** They are a team with incredible carry potential but need to work on their drafting. They are able to pilot comps well but will struggle without good synergy. Their early game is strong, and they are very good at setting up macro control. They must continue to improve their macro game and decision making when playing from behind.
+*   **BNK:** This team has clear synergy issues, and even though they are able to find a lead, they are not able to close out games effectively. They had several close moments and even a win, but their lack of mid-to-late game shot-calling is concerning. The teams decision making as a whole needs to be more cohesive, and the team needs to come to a place where they can trust calls made. There is a lot of potential with this squad, but it needs to be unlocked with good practice and time.
+
+**How Close Were the Matches?**
+
+*   **Game 1:** Not close; DRX took control early and won decisively.
+*  **Game 2:** Decently close, though it heavily favored BNK due to Diablo's early game carry.
+*   **Game 3:** Not close; DRX maintained a consistent lead, and BNK failed to find a way to get a big fight.
+
+**Conclusion**
+
+DRX showed their strengths in individual skill, strategic gameplay, and a good tempo game. BNK's inconsistency and communication issues ultimately cost them the series despite the promise they showed in some key moments. The series is a clear demonstration of what happens when individual skill clashes with a team who are able to set up and properly play around a game plan. It was definitely a good game to see the strengths and weaknesses of both of these teams.
+
+
+Okay, let's break down this Telecom War between T1 and KT Rolster, analyzing each game based on the provided transcript and player data.
+
+**General Observations**
+
+*   **T1's Experimentation:** T1's decision to sub in Smash for Gumayusi was a major storyline. They were seeking data and flexibility in their roster, and Smash demonstrated excellent potential and a strong understanding of the game.
+*   **KT's Consistency Issues:** KT struggled with consistency in all phases of the game. Poor early game decisions and a lack of clear strategy plagued them. They showed potential in game two, but were largely dominated in games one and three. There seemed to be an inability to have both the top and the bottom lane working at the same time and as such lacked a consistent way of generating team fight potential.
+* **Individual Performances:**
+    *  **T1 Smash (Bot Laner):** Smash had an exceptional debut series, showcasing impressive mechanics, a strong understanding of his champions, and a calm demeanor under pressure. His ability to consistently perform well in the lane as well as team fights made him the standout player.
+    *   **T1 Faker (Mid Laner):** Faker had a typically strong performance, showcasing his map awareness and ability to control the game's pace. While he did make a couple of misplays in game two, he was generally a reliable pillar for T1.
+    *   **T1 Doran (Top Laner):** Doran was also a standout performer, particularly with his Nar. His solo kill on perfect in game one set the tone for a dominant performance and he continued to be a big contributor in the final game.
+    *   **T1 Oner (Jungler):** Oner had a phenomenal performance on Scarner, dominating the map in game one. In games two and three, he continued to perform well, effectively enabling his team.
+    *   **T1 Keria (Support):** Keria had a steady performance, enabling his teammates and providing good lane support for Smash. He had a great game one with his nautilus as well.
+    *   **KT Perfect (Top Laner):** Perfect had an okay series with Jace, but was ultimately unable to overcome the strength of Doran's Nar in the side lanes. His Jace did have some strong moments, especially in the second game.
+    *   **KT Bdd (Mid Laner):** Bdd had a number of standout plays with his silas and his Swain, showcasing a strong understanding of those champions. He often had great mechanical moments, especially when pulling off big steals with silas. But there were times in this series that he made costly mistakes and overextended himself.
+    *  **KT Cuzz (Jungler):** Cuz on wukong showed some excellent playmaking ability and found several opportunities that helped KT come back into games. He was able to successfully steal the Baron in game two and set up plays. However, he also missed some key abilities in team fights.
+    *   **KT Way (Support):** Way struggled in this series, particularly with his positioning at the beginning of each game and a tendency to overextend. He often seemed out of position.
+    *   **KT Docdam (Bot Laner):** Deokdam was forced into a tough position, often being zoned out of farm in the bottom lane. He failed to have a big impact, often due to the lack of lane dominance and support.
+
+**Game-by-Game Breakdown**
+
+**Game 1: T1 Victory**
+
+*   **Closeness:** Not close; T1 established an early lead and dominated the game, with Smash performing exceptionally well on his Kaisa. KT's bot lane failed to really get going, being constantly targeted by owner. The sidelanes were also completely run over by doran who dominated the top lane.
+*  **Team Performance:**
+    *   **T1:** T1 displayed exceptional map control and strong individual performances, with Smash and Doran standing out. T1’s execution of their game plan was almost perfect, leading to a fairly easy win.
+    *  **KT:** Way's aggressive level one play backfired, giving Smash an early advantage. The side lanes were consistently run over, especially after Doran solo killed perfect. Overall, KT struggled to create any opportunities and allowed T1 to snowball the game.
+*   **Key Moments:**  Way's early overextension led to a first blood for Smash. A solo kill from Doran set up an advantage for the top side of the map. Oner's control of scarner also allowed for constant pressure on all lanes.
+
+**Game 2: KT Victory**
+
+*   **Closeness:** While KT came back from a significant deficit, T1 had big swings of gold lead and it was always a very close game, with the teams trading blows throughout. KT was able to take control in the mid-to-late game.
+*   **Team Performance:**
+    *   **KT:** KT displayed strong mid-to-late game teamwork and excellent objective control. Bdd and Cuzz took over the game and successfully created openings that their team could take advantage of.
+    *   **T1:** T1’s early game was looking really strong but they were unable to maintain that lead into the mid-to-late game. They struggled to keep up with the scaling threat of KT’s composition.
+*   **Key Moments:** KT's successful fight around the Baron pit followed by the take on the Baron, allowed them to secure their gold lead. They had a good showing in protecting their ad carry, utilizing those tools to their advantage.
+
+**Game 3: T1 Victory**
+
+*   **Closeness:** The game was very one-sided, with T1 establishing an early advantage and never really allowing KT any opportunity to come back. They dominated KT in the lanes, in objective control and all other phases of the game.
+*   **Team Performance:**
+    *   **T1:** T1 showed excellent team coordination and objective control. Smash performed well on Ezreal, demonstrating both mechanical prowess and the ability to play from behind. Oner and Faker also had excellent games, setting up their team for multiple victories.
+    *   **KT:** KT's draft fell apart in this game. Way continued to have issues in the lane. Their inability to deal with T1's poke and constant map pressure was too difficult to overcome. The team had a complete breakdown in communication as they lost every fight and objective.
+*   **Key Moments:** The level one invade from T1 that resulted in first blood was the start of the snowball. The pick potential from T1 was too much for KT to handle in the end and the team continued to isolate duck for a free kill.
+
+**Overall Series Analysis**
+
+*   **T1:** T1 showcased their strength as a unit with strong and adaptable macro game that they could pivot around. Smash's debut was a major success and his ability to slot into the T1 lineup, especially with his strong communication is a very good indication of what this roster could accomplish.
+*   **KT:** KT struggled with consistency across all phases of the game. Their reliance on bdd was very prevalent, which led to their inability to get a win when the series went to a third game. Despite some creative moments and decent gameplay from perfect and cuzz, they were overall unable to match T1's teamwork and versatility. They must address the clear issues and the overextensions that are happening in their support and the lack of coordination that was seen today.
+
+**How Close Were the Matches?**
+
+*   **Game 1:** Not close; T1 completely dominated KT.
+*  **Game 2:** Close; KT came back from a deficit to win a long and exciting match.
+*   **Game 3:** Not close; T1 established an early lead and comfortably closed out the game.
+
+**Conclusion**
+
+The Telecom War delivered some unexpected results, with Smash’s impressive debut on T1 and KT struggling to match T1’s consistency. While KT showed potential, especially in game two, they ultimately fell short against T1's superior teamwork and map control. T1 showed excellent adaptability as a whole and had players stepping up across all roles. T1 is also showing that they have a roster that is incredibly deep with multiple players capable of stepping up.
