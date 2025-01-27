@@ -978,3 +978,109 @@ Okay, let's break down the series between Gen.G and DNF, analyzing each game bas
 **Conclusion**
 
 This series was a demonstration of Gen.G's ability to control the game flow and execute their plan, with consistent strong play. DNF showed some promise at times, but ultimately struggled with consistency and misplays that cost them key objectives. Gen G showcased great objective control and strong team fighting throughout the series.
+
+
+Okay, let's analyze the provided transcript to understand the performances of T1 and Nongshim RedForce (NS), focusing on individual players, key moments, and the closeness of the game. We will also be looking at the draft analysis.
+
+**General Observations**
+
+*   **T1's Calculated Approach:** T1 showcased a calculated and consistent playstyle in this match. While they had some early mistakes, they did not let these compound into big losses, and they were able to capitalize on the missteps of their opponents. Their coordination and map awareness were also key components of their strategy.
+*   **NS's Early Game Prowess and Late-Game Struggles:** Nongshim RedForce demonstrated some strong early game setups, especially with their jungle, and they were able to get some kills through dives and counter-ganks. However, as the game progressed, they couldn't convert those into anything tangible, and they were unable to keep up with T1 in the mid and late game.
+*   **Smash's Continued Strong Performance:** Smash continued to impress, having yet another strong performance on the AD carries he is proficient with. He had yet another series where he looked like a very capable player in the bot lane.
+*   **Owner's Versatility and Map Control:** Oner showcased impressive adaptability, being able to control the game's pace from the jungle. He was also able to make excellent plays for his team while being impactful on both AD and AP based junglers. He had a strong game two and was recognized for it as well.
+* **Individual Performances:**
+    *   **T1 Oner (Jungler):** Oner had a standout series, controlling the map and objectives effectively on his Lilia and Vi. His decision-making was sharp, and he often found opportunities for his team to get advantages.
+    *   **T1 Smash (Bot Laner):** Smash displayed continued prowess on various AD carry champions, with the Jinx in game two being his standout performance. He was consistently good at utilizing his abilities and his item advantages in team fights.
+     *  **T1 Doran (Top Laner):** Doran did not have the same early game dominance in this matchup that he has displayed in previous series. However, in the side lanes he looked incredibly strong and was also a reliable pillar in team fights. He also helped to set up vision in the mid and late game, further improving team’s opportunities.
+    *   **T1 Faker (Mid Laner):** Faker had strong map presence and team fighting skills, and continued to be a threat for his team. He also had some excellent picks that made it difficult for the enemy team to engage on him.
+    *   **T1 Keria (Support):** Keria had a great game in setting up carries as he is always doing and was able to keep his team safe in key moments.
+    *  **Nongshim RedForce GIDEON (Jungler):** Gideon had some impressive early game setups. However, he was often the target of T1, and he was not able to have the same level of impact in the mid to late game.
+    *   **Nongshim RedForce Lens (Support):** Lens had a number of impressive moves, but was often caught out by T1's coordination and map control. He was punished for attempting to play aggressively.
+    *   **Nongshim RedForce Fisher (Mid Laner):** Fisher showed flashes of individual skill and lane dominance, but was consistently outmaneuvered by Faker and also targeted in the side lanes by T1. He had some nice individual plays but didn't have the consistent output needed to win.
+    *  **Nongshim RedForce jiu (Bot Laner):** Jiu had a poor performance and struggled in the team fights and especially in those early lane matchups where he was targeted by the T1 team. He just was not able to make plays like he needed to.
+    *  **Nongshim RedForce Kingen (Top Laner):** Kingen was largely contained by Doran and had moments where he looked threatening, but his build and the composition of the team did not allow him to thrive. He just struggled to find that window to carry this team.
+
+**Game-by-Game Breakdown**
+
+**Game 1: T1 Victory**
+
+*   **Closeness:** Not particularly close; T1 took early leads and controlled the pace of the game, gradually building their advantage. Nongshim had a couple of key picks but T1 were always a step ahead.
+*   **Team Performance:**
+    *   **T1:** They exhibited strong coordination and map awareness, capitalizing on every small misstep by Nongshim. Smash on Caitlyn and Oner on Zeno had a great game and were always a step ahead in every play.
+    *   **NS:** NS showed some decent early game setups, but ultimately failed to capitalize on those opportunities. As the game went on they were easily picked apart and lacked the tools to turn the fight around. The team lacked a sense of cohesion which allowed T1 to take control so effortlessly.
+*   **Key Moments:** T1's early trap and successful dive into the top Lane set them up for an early advantage, putting Nongshim behind. Doran's solo kill on Fifer also continued to put them ahead.
+
+**Game 2: T1 Victory**
+
+*   **Closeness:** Not particularly close; T1 dominated the early game with multiple kills and a ton of early map pressure. The team had a strong game plan and were able to easily execute it.
+*   **Team Performance:**
+    *  **T1:** They demonstrated strong early game coordination and snowballed into an insurmountable lead. The team had a great comp and leveraged their advantages to perfection.
+    *   **NS:** Nongshim's strong early game setups and some individual highlights in the lane were not enough to match T1's coordination and strategic plays. The team struggled to keep up, especially when T1 had the Baron buff.
+*  **Key Moments:** An early invade from T1 completely shut down the bottom side of the map and then Doran’s ability to win in top lane further compounded their issue. T1 used the Aracan to great effect to set up a decisive win on this one.
+
+**Overall Series Analysis**
+
+*   **T1:** T1 displayed superior macro control, team coordination, and map awareness. They demonstrated a strong ability to execute different strategies, and capitalize on even minor errors from the opposition. They are a consistently strong team with great communication and an understanding of how they want to win.
+*   **Nongshim RedForce:** Despite a promising start with clever lane setups, they struggled to control the tempo of the match and to maintain their composure under pressure. They failed to convert some opportunities and looked disorganized in most team fights, which allowed T1 to consistently pick them apart.
+
+**How Close Were the Matches?**
+
+*   **Game 1:** Not close; T1 controlled the pace and direction of the game from fairly early on.
+*  **Game 2:** Not close; T1's dominance was evident from the start and they never let up.
+
+**Conclusion**
+
+T1 showcased the capabilities of their new lineup, even with the substitution of smash. They had good communication and macro ability, and were able to take down Nongshim with little resistance. The rookie smash continues to impress and proves that T1 are a team with a lot of talent. Nongshim RedForce failed to find a response and looked outclassed. While they had some bright spots they were ultimately unable to turn the tables and secure a win.
+
+
+Okay, let's analyze the provided transcript of the match between Bro and KT Rolster, focusing on each game and player performances while also making note of the overall closeness of the matches.
+
+**General Observations**
+
+*   **Bro's Early Game Dominance and Late-Game Struggles:** Bro often started with excellent early game setups and built significant leads; however, they also struggled to make the right decisions to close out the game, often getting caught out of position. They have displayed a great ability to create space in the map and find opportunities for big leads.
+*   **KT's Calculated Approach and Late-Game Strength:** KT, on the other hand, seemed to have a more measured play style, often starting slow but coming back through strong team fights and objective prioritization. They are also a team that can be baited into overextending, but can often find a way out of a bad situation.
+*   **Perfect's Resurgence:** Perfect showcased a much stronger performance this series, especially in game two, demonstrating he has a deep understanding of the Renekton pick and he made that work for him. He was punished quite heavily in game one but made some big plays when it mattered most.
+*   **Hype and Closers Explosive Plays:** Hype and Closer both showed potential to carry for Bro, showcasing excellent mechanics and big team fight potential, but were not consistent enough to take down KT on their own.
+* **Individual Performances:**
+    * **KT Bdd (Mid Laner):** Bdd was the clear standout for KT in this series. He was able to take over the game with his poke, damage, and incredible decision making. His performance earned him the Player of the Match award.
+    * **KT Perfect (Top Laner):** Perfect showcased excellent play on his Renekton, solo killing Morgan and displaying great team fighting positioning. He was able to do the job that his team needed him to do.
+    * **KT Cuz (Jungler):** Cuz had a strong series on the Wukong, enabling his team's aggression and successfully securing key objectives. He did show a tendency to overextend at times, but always managed to find his way back to safety.
+    *  **KT wey (Bot Laner):** Wey had a better performance in this series, and while his positioning was often questionable he contributed a great deal more. However, he also was often too far forward.
+    *   **KT Duro (Support):** Duro was a great partner for his team's aggressive plays, initiating fights well and always being right where he needed to be when it mattered the most.
+    *  **Bro Morgan (Top Laner):** Morgan, despite not securing a win, showed excellent ability to win his lane and generate leads for his team.
+    *   **Bro Closer (Mid Laner):** Closer showed glimpses of brilliance on the Aurora, but ultimately could not find the consistency needed in his games to lead his team to victory.
+    *  **Bro Huk (Jungler):** Huk had a rough early game but demonstrated moments of ingenuity and some very high skilled plays. His individual mechanical ability was on show, but his decision-making was not always up to par.
+    * **Bro Pao (Support):** Pao played well and had good engages, but they were not always well-timed. He seemed to have a disconnect with the timing and pacing of his team, leading to his own death.
+     * **Bro Hype (Bot Laner):** Hype, while talented, seemed to struggle at times in the face of KT’s pressure. He was not always able to generate the damage needed to carry his team.
+
+**Game-by-Game Breakdown**
+
+**Game 1: KT Victory**
+
+*   **Closeness:** While Bro had the lead for a while, they eventually fell behind as KT took control in the late game to secure the win.
+*   **Team Performance:**
+    *   **KT:** KT had a slow start to the game and was consistently punished in the early game but managed to take control and capitalize on bro's mistakes. They demonstrated strong team fighting and objective control. BDD's performance was the clear standout.
+    *   **Bro:** They had a strong start with a great dive and map control. However, they overextended at various points of the game and failed to coordinate their dives and rotations to secure objectives. The team made key misplays that ultimately cost them the game.
+*   **Key Moments:** After a strong start by Bro, KT's calculated approach in the mid-to-late game was the key turning point that allowed them to come back into the game. A key play by Pao to collapse on to bdd failed as bdd was able to disengage and turn it into a pick.
+
+**Game 2: KT Victory**
+
+*   **Closeness:** This game was also close, but KT had a great team fighting and objective setups to help them close it out while Bro was caught out a few times.
+*   **Team Performance:**
+    *   **KT:** Showcasing great team fighting and objective control, KT played well in this match with all players contributing their value. Bdd's control in the side lanes was key, and the team worked well to keep him safe.
+    *   **Bro:** The team had a good showing with some highlights from hype and closer, but they had some pretty big misplays that really cost them the game.
+*   **Key Moments:** The Aon steal by KT was a huge turning point that ultimately took the wind out of Bro’s sails. It was at that point that KT had the momentum to secure the win.
+
+**Overall Series Analysis**
+
+*   **KT:** KT proved to be a very flexible squad with a very strong understanding of how to play into different compositions. Their team fighting and ability to secure key objectives was the main reason for their victories and has continued to improve throughout the lck cup. They have consistently adapted to their opponent's choices and made use of their strengths in all phases of the game.
+*   **Bro:** Bro, again, showcased strong early game prowess, but struggled with consistent decision-making and a cohesive team fight identity. Their picks were generally fine but their ability to capitalize on advantages and take objectives fell off in the mid to late game.
+
+**How Close Were the Matches?**
+
+*   **Game 1:** Close; Bro had a great early game but could not translate that into a victory.
+*   **Game 2:** Close to not close; Bro had control and a good team fight comp but were easily dismantled by KT.
+
+**Conclusion**
+
+KT demonstrated their strong late-game prowess and ability to turn losing situations into decisive wins. Bdd was clearly the standout for KT and his ability to both carry and provide team fight utility was unmatched this game. Bro showed flashes of their strength in both games, but were consistently unable to fully capitalize on their early gains and were ultimately outclassed by KT who have learned to make it work when it mattered the most.
