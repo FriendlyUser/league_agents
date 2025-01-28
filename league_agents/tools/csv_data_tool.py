@@ -31,7 +31,8 @@ def download_csv():
             return datetime.now() - file_mod_time < timedelta(hours=24)
         return False
 
-    file_url = 'https://drive.google.com/uc?id=1IjIEhLc9n8eLKeY-yh_YigKVWbhgGBsN'
+    # file_url = 'https://drive.google.com/uc?id=1IjIEhLc9n8eLKeY-yh_YigKVWbhgGBsN'
+    file_url = 'https://drive.google.com/uc?id=1v6LRphp2kYciU4SXp0PCjEMuev1bDejc'
 
     if not is_file_updated_within_24_hours(league_file_path):
         gdown.download(file_url, league_file_path, quiet=False)

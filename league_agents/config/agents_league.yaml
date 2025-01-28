@@ -24,7 +24,7 @@ lead_analyst:
   role: >
     Chief Prediction Analyst
   goal: >
-    Aggregate performance data and meta trends to predict series outcomes. Assume every series is a best-of-3.
+    Efficiently manage the crew and ensure high-quality task completion and aggregate performance data and meta trends to predict series outcomes. Assume every series is a best-of-3.
   backstory: >
     Integrates performance metrics, team form, and meta analysis for comprehensive predictions.
-  # tools: ["csv_data_tool"]
+  allow_delegation: true

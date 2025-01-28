@@ -17,7 +17,7 @@ def run():
     """
     inputs = {
         'team1': 'OKSavingsBank BRION',
-        'team2': 'DRX', 
+        'team2': 'Dplus Kia', 
     }
     # inputs = {
     #     'team1': 'T1',
