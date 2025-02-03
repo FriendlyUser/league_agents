@@ -1,0 +1,1 @@
+BUILD A LANGCHAIN APP THAT USES THE YOUTUBE_TRANSCRIPT_API pulls the transcript feeds the team data into it, and contains the list of champions and players to autocorrect. As a follow up chain, also at the same time clean statements like Let me know if you'd like a more detailed look at any specific aspects!, automatically save to file.
