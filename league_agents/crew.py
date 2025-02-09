@@ -88,7 +88,7 @@ class LeagueAgents:
     def meta_analyst(self) -> Agent:
         return Agent(
             config=self.agents_config["meta_analyst"],
-            tools=[docs_tool, file_tool, web_rag_tool],
+            tools=[docs_tool, file_tool],
             verbose=True,
              embedder={
                 "provider": "google",
