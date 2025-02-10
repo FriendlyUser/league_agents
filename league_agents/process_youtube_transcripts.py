@@ -1,14 +1,17 @@
-from googleapiclient.discovery import build
-import re
-import json
-import os
+#!/usr/bin/env python3
+import argparse
 import csv
 import os
+import re
 import requests
+from datetime import timedelta
 from youtube_transcript_api import YouTubeTranscriptApi
+from langchain_google_genai import GoogleGenerativeAI
+from langchain.prompts import PromptTemplate
 
-# Creating a flat list with 2 or 3 letter abbreviations for each team
+# --- Global Data and Helper Functions ---
 
+# A list of team abbreviations used for potential team extraction.
 lpl_team_abbreviations = [
     "OMG",  # Oh My God
     "WBG",  # Weibo Gaming
@@ -28,171 +31,117 @@ lpl_team_abbreviations = [
     "JDG"   # JD Gaming
 ]
 
-
-
-
-def extract_teams_new(input_str):
-    # find teams in teams_abbreviations
+def extract_teams_new(input_str: str):
+    """
+    Given an input string, return a tuple of at most two team abbreviations
+    found in the string.
+    """
     teams = [team for team in lpl_team_abbreviations if team in input_str]
-    # limit to 2 entries
-    teams = teams[:2]
-    return tuple(teams)
+    return tuple(teams[:2])
 
-def extract_teams(input_str):
-    # Split the string up to the first "|"
+def extract_teams(input_str: str):
+    """
+    Extract team names from a string by splitting the first section
+    before the "|" character and removing any 'vs' text.
+    """
     first_part = input_str.split("|")[0].strip()
-    
-    # Remove the word "vs" or "vs." and trim whitespace
     teams = first_part.replace("vs.", "").replace("vs", "").strip()
-    
-    # Split by any remaining whitespace to get individual team names
     team_names = teams.split()
-
-    print(team_names)
-    
+    print("Extracted teams:", team_names)
     return tuple(team_names)
 
-# download the transcript, then apply the llm analysis to it, cut into early game
-# mid game and late game
-# def download_file_from_private_repo(file_url, access_token, destination_path):
-#     headers = {'Authorization': f'token {access_token}'}
-#     response = requests.get(file_url, headers=headers)
-
-#     if response.status_code == 200:
-#         with open(destination_path, 'w') as file:
-#             file.write(response.text)
-#         print("File downloaded successfully.")
-#     else:
-#         print(f"Failed to download file: {response.status_code}")
-
-# # Example usage
-# ACCESS_TOKEN = 'your_github_access_token_here'
-# FILE_URL = 'https://raw.githubusercontent.com/username/repository/branch/path/to/your/file.txt'
-# DESTINATION_PATH = 'path/to/save/your/file.txt'
-
-# function that I could use for the deno deploy client side
 def find_interview_and_condense(youtube_data):
-    # Calculate the 80% index mark to determine if the 'interview' mention is past this point.
+    """
+    Checks for the word 'interview' in the transcript entries and returns
+    a condensed transcript if the mention occurs past 80% of the content.
+    """
     eighty_percent_mark = int(len(youtube_data) * 0.8)
-    
-    # Iterate over the youtube data to find the first index of 'interview' mention.
     for index, entry in enumerate(youtube_data):
         if 'interview' in entry['text'].lower():
-            # If the 'interview' mention is past the 80% mark of the entries, return the condensed array.
             if index >= eighty_percent_mark:
                 return youtube_data[index:], index
             break
 
-# Fetch the API key from environment variables
-developer_key = os.environ.get("YOUTUBE_API_KEY")
-
-# channel_name = "lolesportsvods"
-channel_name = 'LPL_ENGLISH'
-
-print("developer_key", developer_key)
-# if developer_key is None: throw error
-if developer_key is None:
-    print("Error: YOUTUBE_API_KEY environment variable is not set.")
-    exit(1)
-# Step 1: Find the channel ID
-search_url = "https://www.googleapis.com/youtube/v3/search"
-params_channel = {
-    "part": "id,snippet",
-    "q": channel_name,
-    "type": "channel",
-    "maxResults": 100,
-    "key": developer_key,
-}
-
-channel_response = requests.get(search_url, params=params_channel).json()
-
-# print("Channel found:", channel_response)
-channel_id = channel_response["items"][0]["id"]["channelId"]
-
-# (Optional) Regex pattern for matching your highlight titles
-pattern = r"vs"
-
-# Step 2: Search for highlight videos in the channel
-query = "LPL 2025"
-# date cutoff
-date_cutoff = "2025-01-10T00:00:00Z"
-params_videos = {
-    "part": "id,snippet",
-    "channelId": channel_id,
-    "q": query,
-    "type": "video",
-    "maxResults": 1000,
-    "key": developer_key,
-}
-
-videos_response = requests.get(search_url, params=params_videos).json()
-
-
-
-csv_file_path = os.path.join("data", "match_data.csv")
-existing_video_ids = set()
-
-try:
-    with open(csv_file_path, 'r', newline='', encoding='utf-8') as csvfile:
-        csvreader = csv.DictReader(csvfile)
-        for row in csvreader:
-            existing_video_ids.add(row['videoID'])
-except FileNotFoundError:
-    print("CSV file not found, will be created.")
-
-
-from datetime import timedelta
-
 def format_srt_timestamp(seconds: float) -> str:
-    """Converts seconds to SRT timestamp format (HH:MM:SS,mmm)."""
+    """
+    Converts a time value in seconds to SRT timestamp format (HH:MM:SS,mmm).
+    """
     time_delta = timedelta(seconds=int(seconds))
     hours, remainder = divmod(time_delta.seconds, 3600)
     minutes, seconds = divmod(remainder, 60)
     return f"{hours:02}:{minutes:02}:{seconds:02}"
 
 def convert_transcript_to_srt(transcript: list) -> str:
-    """Converts a list of transcript entries into SRT format."""
+    """
+    Converts a transcript (a list of entries with 'start', 'duration', and 'text')
+    into a string formatted as SRT subtitles.
+    """
     srt_output = []
     for index, entry in enumerate(transcript, start=1):
         start_time = format_srt_timestamp(entry['start'])
         end_time = format_srt_timestamp(entry['start'] + entry['duration'])
         text = entry['text']
-        
         srt_output.append(f"{start_time} --> {end_time}\n{text}\n")
-    
     return "\n".join(srt_output)
 
-
-import os
-from langchain_google_genai import GoogleGenerativeAI
-from langchain.prompts import PromptTemplate
-
-def analyze_esports_match(video_title: str, video_transcript: str) -> str:
+def analyze_esports_match(video_title: str, video_transcript: list, google_api_key: str) -> str:
     """
-    Reads in the team data from data/lpl_teams_2025.md and sets up a LangChain LLM chain
-    that uses a prompt with the provided video title, transcript, and team data to generate
-    an analysis of the esports match.
-    
-    The prompt instructs the LLM to act as an esports analyst and use the team rosters
-    (provided in the markdown file) to correct typos in player names and give a detailed breakdown
-    of each player's performance.
+    Uses LangChain and Google Generative AI to analyze an esports match.
+    The function reads in team roster data from a local markdown file, creates
+    prompt templates, and then uses the LLM to first validate team information
+    and then to generate a detailed match analysis.
     
     Parameters:
-        video_title (str): The title of the YouTube video.
-        video_transcript (str): The full transcript of the video.
-        
+      video_title: Title of the YouTube video.
+      video_transcript: Transcript data (list of dict entries) from the video.
+      google_api_key: API key for Google Generative AI.
+    
     Returns:
-        str: The generated analysis of the match.
+      A string containing the analysis of the match.
     """
-    # Import the team data from the markdown file
+    # Load team data from a markdown file.
     teams_data_path = "data/lpl_teams_2025.md"
-    with open(teams_data_path, "r", encoding="utf-8") as file:
-        teams_data = file.read()
+    try:
+        with open(teams_data_path, "r", encoding="utf-8") as file:
+            teams_data = file.read()
+    except FileNotFoundError:
+        print(f"Error: Team data file not found at {teams_data_path}")
+        return "Team data file missing."
 
-    # Define the prompt template with placeholders for the video title, transcript, and teams data.
+    # Prompt to validate or filter team data.
+    prompt_template_filtering = """
+Given the following video title on YouTube "{video_title}" and the full list of teams in League of Legends with their players,
+return the list of players grouped by their team. For example, for the title:
+    
+    LPL 2025 WBG vs JDG | BO5 FEARLESS
+
+Return something like:
+
+    JDG (JD Gaming)
+        - Ale
+        - Xun
+        - Scout
+        - Peyz
+        - MISSING
+        - cvMax
+        - BoBo
+
+    WBG (Weibo Gaming)
+        - Breathe
+        - Tian
+        - Xiaohu
+        - Light
+        - Hang
+        - NoFe
+        - Tselin
+       
+Teams Data:
+{teams_data}
+    """
+    # Main prompt for match analysis.
     prompt_template = """
-Act as an esports analyst. Given the following transcript of the esports game titled "{video_title}", determine how close the matches were. 
-You will also be provided the team names and roster. Use that to accurately describe the performance of the players, and correct any typos in the player names.
+Act as an esports analyst. Given the following transcript of the esports game titled "{video_title}", determine how close the match was.
+Use the team names and rosters provided to accurately describe each player's performance and correct any typos in player names.
 
 Team Data:
 {teams_data}
@@ -200,114 +149,160 @@ Team Data:
 Transcript:
 {video_transcript}
 
-Provide a detailed breakdown of each player's performance as well as an overall analysis of the game.
+Provide a detailed breakdown of each player's performance as well as an overall analysis of the game. Note what the final score between teams is.
+
+Also identify what each team did well and poorly.
     """
 
-    prompt_template_filtering = """
-        Given the following video title on youtube "{video_title}" and the full list of teams in league of legends with their players.
-        We want to return the list of players and their team members:
-        {teams_data}
-
-        For example: for the title LPL 2025 WBG vs JDG | BO5 FEARLESS
-
-        Return:
-
-        JDG (JD Gaming)
-            - Ale
-            - Xun
-            - Scout
-            - Peyz
-            - MISSING
-            - cvMax
-            - BoBo
-
-        ## WBG (Weibo Gaming)
-            - Breathe
-            - Tian
-            - Xiaohu
-            - Light
-            - Hang
-            - NoFe
-            - Tselin
-
-    """
+    # Set up LangChain prompt templates.
     clean_prompt = PromptTemplate(
-        input_variables=["video_title",  "teams_data"],
+        input_variables=["video_title", "teams_data"],
         template=prompt_template_filtering
     )
-    # Create the prompt template for LangChain
     prompt = PromptTemplate(
         input_variables=["video_title", "video_transcript", "teams_data"],
         template=prompt_template
     )
 
-    GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY")
+    # Initialize the LLM client.
+    llm = GoogleGenerativeAI(model="gemini-2.0-flash", api_key=google_api_key)
 
-    llm = GoogleGenerativeAI(model="gemini-2.0-flash", api_key=GOOGLE_API_KEY)
-
-    # Run the chain with the provided inputs
-    # chain = clean_prompt | prompt | llm
-
+    # First, obtain validated team data.
     valid_chain = clean_prompt | llm
-    prompt_chain = prompt | llm
     valid_teams = valid_chain.invoke(input={
         "video_title": video_title,
-        "teams_data": teams_data})
+        "teams_data": teams_data
+    })
 
+    # Convert the transcript to SRT format.
     srt_transcript = convert_transcript_to_srt(video_transcript)
 
+    # Now create the analysis prompt.
+    prompt_chain = prompt | llm
     analysis = prompt_chain.invoke(input={
         "video_title": video_title,
         "video_transcript": srt_transcript,
         "teams_data": valid_teams
     })
 
-    # write to file  data lpl_summaries
-    summary_file_path = os.path.join("data", "lpl_summaries.txt")
-    with open(summary_file_path, "a", encoding="utf-8") as file:
-        file.write(video_title + "\n" + analysis + "\n" + "\n")
-    
     return analysis
 
+# --- Main Function ---
 
-#
-matched_items = []
-for video in videos_response['items']:
-    video_id = video['id']['videoId']
-    video_title = video['snippet']['title']
-    
-    # Check if the videoID is already in the CSV, skip if it exists
-    if video_id not in existing_video_ids:
-        # if re.match(pattern, video_title):  # Assuming `pattern` is previously defined
-        # if we cant extract the team names just throw an error
-        # return if not past cutoff date
-        if video['snippet']['publishedAt'] < date_cutoff:
-            print("skipping video published before cutoff date: ", video['snippet']['publishedAt'])
+def main():
+    parser = argparse.ArgumentParser(
+        description="Process esports match videos from a YouTube channel and generate match analyses."
+    )
+    parser.add_argument("--channel", type=str, default="LPL_ENGLISH",
+                        help="YouTube channel name to search (default: LPL_ENGLISH)")
+    parser.add_argument("--output", type=str, default="data/lpl_summaries.md",
+                        help="Output file path for match summaries (default: data/lpl_summaries.md)")
+    parser.add_argument("--query", type=str, default="LPL 2025",
+                        help="Search query for videos (default: 'LPL 2025')")
+    parser.add_argument("--date_cutoff", type=str, default="2025-01-10T00:00:00Z",
+                        help="ISO date cutoff; skip videos published before this (default: 2025-01-10T00:00:00Z)")
+    parser.add_argument("--csv_file", type=str, default="data/match_data.csv",
+                        help="CSV file to store processed video IDs (default: data/match_data.csv)")
+    args = parser.parse_args()
+
+    channel_name = args.channel
+    output_file_path = args.output
+    query = args.query
+    date_cutoff = args.date_cutoff
+    csv_file_path = args.csv_file
+
+    # Retrieve API keys from the environment.
+    developer_key = os.environ.get("YOUTUBE_API_KEY")
+    if not developer_key:
+        print("Error: YOUTUBE_API_KEY environment variable is not set.")
+        exit(1)
+    google_api_key = os.environ.get("GOOGLE_API_KEY")
+    if not google_api_key:
+        print("Error: GOOGLE_API_KEY environment variable is not set.")
+        exit(1)
+
+    print("Using channel:", channel_name)
+    print("Developer key loaded.")
+
+    # Step 1: Find the channel ID using the YouTube API.
+    search_url = "https://www.googleapis.com/youtube/v3/search"
+    params_channel = {
+        "part": "id,snippet",
+        "q": channel_name,
+        "type": "channel",
+        "maxResults": 100,
+        "key": developer_key,
+    }
+    channel_response = requests.get(search_url, params=params_channel).json()
+    if not channel_response.get("items"):
+        print("No channel found for", channel_name)
+        exit(1)
+    channel_id = channel_response["items"][0]["id"]["channelId"]
+    print("Found channel ID:", channel_id)
+
+    # Step 2: Search for videos in the channel matching the query.
+    params_videos = {
+        "part": "id,snippet",
+        "channelId": channel_id,
+        "q": query,
+        "type": "video",
+        "maxResults": 50,
+        "key": developer_key,
+    }
+    videos_response = requests.get(search_url, params=params_videos).json()
+    if not videos_response.get("items"):
+        print("No videos found with query", query)
+        exit(1)
+
+    # Step 3: Load any existing video IDs from the CSV to avoid duplicate processing.
+    existing_video_ids = set()
+    try:
+        with open(csv_file_path, 'r', newline='', encoding='utf-8') as csvfile:
+            csvreader = csv.DictReader(csvfile)
+            for row in csvreader:
+                existing_video_ids.add(row['videoID'])
+    except FileNotFoundError:
+        print("CSV file not found, it will be created.")
+
+    # Step 4: Filter videos based on publication date, presence of "vs", and query text.
+    matched_items = []
+    for video in videos_response.get('items', []):
+        video_id = video['id']['videoId']
+        video_title = video['snippet']['title']
+        published_at = video['snippet']['publishedAt']
+        if video_id in existing_video_ids:
             continue
+        if published_at < date_cutoff:
+            print("Skipping video published before cutoff:", published_at)
+            continue
+        if "vs" not in video_title.lower():
+            print("Skipping video missing 'vs' in title:", video_title)
+            continue
+        if query not in video_title:
+            print("Skipping video missing query text in title:", video_title)
+            continue
+        print("Processing video:", video_title)
+        matched_items.append(video)
+
+    # Step 5: Process each matched video.
+    for video in matched_items:
+        video_id = video['id']['videoId']
+        video_title = video['snippet']['title']
         try:
-            # if missing vs continue
-            if "vs" not in video_title.lower():
-                print("skipping video missing vs: ", video_title)
-                continue
-            if query not in video_title:
-                print("skipping video missing query: ", video_title)
-                continue
-            print("processing video: ", video_title)
-            # teams = extract_teams_new(video_title)
-            # team_1 = teams[0]
-            # team_2 = teams[1]
-            matched_items.append(video)
+            transcript_list = YouTubeTranscriptApi.list_transcripts(video_id)
+            transcript = transcript_list.find_generated_transcript(['en'])
+            transcript_data = transcript.fetch()
         except Exception as e:
-            print(f"Error processing video title: {video_title}. Error: {e}")
-            print(video)
+            print(f"Error fetching transcript for video {video_title} ({video_id}): {e}")
+            continue
 
-# make a simple csv that contains, title, extract team t1,t2 from title and then save as pandas dataframe
-for video in matched_items:
-    video_id = video['id']['videoId']
-    video_title = video['snippet']['title']
-    # todo dont think I need this here
-    transcript_list = YouTubeTranscriptApi.list_transcripts(video_id)
-    transcript = transcript_list.find_generated_transcript(['en'])
-    transcript_data = transcript.fetch()
+        # Generate the match analysis.
+        analysis = analyze_esports_match(video_title, transcript_data, google_api_key)
 
-    analyze_esports_match(video_title, transcript_data)
+        # Write the analysis to the output file.
+        with open(output_file_path, "a", encoding="utf-8") as out_file:
+            out_file.write(video_title + "\n" + analysis + "\n\n")
+        print(f"Analysis for '{video_title}' written to {output_file_path}")
+
+if __name__ == '__main__':
+    main()
