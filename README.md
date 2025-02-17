@@ -52,3 +52,8 @@ For support, questions, or feedback regarding the LeagueAgents Crew or crewAI.
 - [Chat with our docs](https://chatg.pt/DWjSBZn)
 
 Let's create wonders together with the power and simplicity of crewAI.
+
+
+## TODO
+
+experiment with autogen, for some live web scrapping, with human in the loop, we can use AI to scan reddit and reddit comments for post game discussions or use youtube to grab live comments from a livestream and then save to file? And recalculate odds based on what the comments say.

@@ -1,4 +1,4 @@
-Hanhwa Life ESports
+Hanhwa Life ESports (HLE)
 
 Zeus	
 Top Laner	
@@ -45,7 +45,7 @@ Nov 2024
 
 
 
-KT ROLSTER
+KT ROLSTER (KT)
 
 PerfecT	
 Top Laner	2026-11-16
@@ -69,7 +69,7 @@ Nov 2024
 
 
 
-BNK FEARX
+BNK FEARX (FEARX)
 
 Clear	
 Top Laner	2025-11-17
