@@ -1,8 +1,11 @@
 import os
 import json
 import time
+import csv
 from dotenv import load_dotenv
 import requests
+import argparse
+from datetime import datetime
 
 
 class YouTubeLiveChat:
@@ -24,6 +27,7 @@ class YouTubeLiveChat:
         self.base_url = "https://www.googleapis.com/youtube/v3"
         self.search_url = "https://www.googleapis.com/youtube/v3/search"  # Define search URL
         self.event_details = {}
+        self.channel_handle = None
 
     def set_channel_id(self, channel_id):
         """
@@ -53,13 +57,14 @@ class YouTubeLiveChat:
         }
         try:
             channel_response = requests.get(
-                self.search_url, params=params_channel, verify=True  # Removed verify=False
-            ).json()  # Removed verify=False. Always verify SSL unless you have a good reason *not* to.
+                self.search_url, params=params_channel, verify=True
+            ).json()
 
             if not channel_response.get("items"):
                 print(f"No channel found for {channel_name}")
                 return None
 
+            self.channel_handle = channel_name  # setting the channel name
             channel_id = channel_response["items"][0]["id"]["channelId"]
             return channel_id
 
@@ -73,7 +78,6 @@ class YouTubeLiveChat:
             print(f"KeyError while parsing channel response: {e}. Check API response format.")
             return None
 
-
     def get_live_events(self):
         """
         Retrieves a list of live events for the specified channel.
@@ -82,9 +86,10 @@ class YouTubeLiveChat:
             list: A list of live event dictionaries, or None if an error occurs.
         """
         if not self.channel_id:
-            print("Error: channel_id not set.  Call `set_channel_id()` or `find_channel_id_by_name()` first.")
+            print(
+                "Error: channel_id not set.  Call `set_channel_id()` or `find_channel_id_by_name()` first."
+            )
             return None
-
 
         url = f"{self.base_url}/search"
         params = {
@@ -92,7 +97,6 @@ class YouTubeLiveChat:
             "channelId": self.channel_id,
             "order": "date",
             "type": "video",
-            # "eventType": "completed",
             "eventType": "live",  # only return live events
             "key": self.api_key,
         }
@@ -208,34 +212,94 @@ class YouTubeLiveChat:
             print(f"Error decoding JSON response: {e}")
             return None
 
-    def poll_live_chat(self, live_chat_id, callback, max_results=2000):
+    def poll_live_chat(self, live_chat_id, callback, filename, csv_headers, max_results=2000):
         """
-        Polls the live chat for new messages at the interval specified by the API.
+        Polls the live chat for new messages at the interval specified by the API, opening and closing the CSV inside the loop.
 
         Args:
             live_chat_id (str): The ID of the live chat.
-            callback (function): A function to call with the new messages.
+            callback (function): A function to call with the new messages (must accept messages and csv_writer).
+            filename (str): The name of the CSV file to write to.
+            csv_headers (list): The headers for the CSV file.
             max_results (int): The maximum number of messages to retrieve per poll (default: 2000).
         """
         next_page_token = None
-        while True:
-            data = self.get_live_chat_messages(
-                live_chat_id, max_results=max_results, page_token=next_page_token
-            )
-            if data:
-                messages = data.get("items", [])
-                callback(messages)
-                next_page_token = data.get("nextPageToken")
-                polling_interval = data.get("pollingIntervalMillis") / 1000  # Convert to seconds
-                time.sleep(polling_interval)  # Python needs time import
-            else:
-                print("Error occurred while polling.  Stopping.")
-                break  # Exit the loop on error
+        try:
+            csvfile = open(filename, 'a', newline='', encoding='utf-8')  # Open in 'append' mode
+            csv_writer = csv.writer(csvfile)
+
+            # Write header only if the file is empty
+            if os.stat(filename).st_size == 0:
+                csv_writer.writerow(csv_headers)
+
+            while True:
+                data = self.get_live_chat_messages(
+                    live_chat_id, max_results=max_results, page_token=next_page_token
+                )
+                if data:
+                    messages = data.get("items", [])
+                    callback(messages, csv_writer)  # Pass csv_writer to callback
+                    next_page_token = data.get("nextPageToken")
+                    polling_interval = data.get("pollingIntervalMillis") / 1000  # Convert to seconds
+                    time.sleep(polling_interval)  # time sleep function
+                else:
+                    print("Error occurred while polling.  Stopping.")
+                    break  # Exit the loop on error
+
+        except Exception as e:
+            print(f"An error occurred during polling: {e}")
+        finally:
+            if 'csvfile' in locals() and not csvfile.closed: # only closes if csv file is defined and its not already closed
+                csvfile.close()
+                print(f"CSV file {filename} closed.")
 
 
-if __name__ == "__main__":
-    import time
-    import argparse
+def setup_args():
+    """Sets up command-line arguments."""
+    parser = argparse.ArgumentParser(description="Fetch YouTube live chat messages and save to CSV.")
+    parser.add_argument("--channel_id", help="The YouTube channel ID.")
+    parser.add_argument(
+        "--channel_name",
+        help="The YouTube channel name or handle (e.g., @lolesports).",
+        default="@ESLDota2",
+    )
+    return parser.parse_args()
+
+
+def process_message(message, csv_writer):
+    """Processes a single chat message and writes it to the CSV file."""
+    author = message["authorDetails"]["displayName"]
+    publishedAt = message["snippet"]["publishedAt"]
+    if message["snippet"].get('displayMessage'):
+        text = message["snippet"]["displayMessage"]
+        csv_writer.writerow([author, text, publishedAt])
+    elif message['snippet'].get('type')== 'userBannedEvent':
+        print("user banned ignore this message")
+    else:
+        print("message cannot be processed", message)
+
+
+def save_messages(messages, csv_writer):
+    """Saves a list of messages to the CSV file."""
+    for message in messages:
+        process_message(message, csv_writer)
+
+
+def get_filename(youtube_chat):
+    """Generates a filename for the CSV file based on channel and video details."""
+    channel_name = youtube_chat.channel_handle if youtube_chat.channel_handle else youtube_chat.channel_id
+    video_id = youtube_chat.event_details['id']['videoId']
+    return f"youtube_chat_{channel_name}_{video_id}.csv"
+
+
+def ensure_data_directory_exists(directory="data"):
+    """Ensures that the specified data directory exists. Creates it if it doesn't."""
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+
+
+def main():
+    """Main function to orchestrate fetching and saving chat messages."""
 
     load_dotenv()
     api_key = os.getenv("YOUTUBE_API_KEY")  # Ensure you have this in your .env file
@@ -244,34 +308,20 @@ if __name__ == "__main__":
         print("Error: YOUTUBE_API_KEY not found in .env file.")
         exit()
 
-    parser = argparse.ArgumentParser(description="Fetch YouTube live chat messages.")
-    parser.add_argument("--channel_id", help="The YouTube channel ID.")
-    parser.add_argument(
-        "--channel_name",
-        help="The YouTube channel name or handle (e.g., @lolesports).",
-        default="@ESLDota2",
-    )  # Added default value
-
-    args = parser.parse_args()
+    args = setup_args()
 
     youtube_chat = YouTubeLiveChat(api_key)
 
     if args.channel_id:
         youtube_chat.set_channel_id(args.channel_id)
         print(f"Using channel ID from command line: {args.channel_id}")
-    elif args.channel_name:
+    else:
         channel_id = youtube_chat.find_channel_id_by_name(args.channel_name)
         if not channel_id:
             print("Could not find channel ID from channel name. Exiting.")
             exit()
         youtube_chat.set_channel_id(channel_id)
         print(f"Using channel ID found from channel name: {channel_id}")
-
-    else:
-        print(
-            "Error: Either --channel_id or --channel_name must be provided."
-        )  # More descriptive message
-        exit()
 
     live_video_id = youtube_chat.get_live_video_id()
 
@@ -281,21 +331,24 @@ if __name__ == "__main__":
         if active_live_chat_id:
             print(f"Active live chat ID: {active_live_chat_id}")
 
-            def print_messages(messages):
-                for message in messages:
-                    author = message["authorDetails"]["displayName"]
-                    print(message)
-                    # skip messages with userBannedDetails
-                    if message["snippet"].get('displayMessage'):
-                        text = message["snippet"]["displayMessage"]
-                        print(f"{author}: {text}")
-                    else:
-                        print("message cannot be processed", message)
+            # Determine filename
+            ensure_data_directory_exists()  # Ensure the data directory exists
+            filename = os.path.join("data", get_filename(youtube_chat))  # Prepend 'data' directory
+            print("Streaming to ", filename)
 
+            # CSV Headers
+            csv_headers = ["author", "displayMessage", "publishedAt"]
 
-            print("Polling for new messages...")
-            youtube_chat.poll_live_chat(active_live_chat_id, print_messages)
+            print("Polling for new messages and saving to CSV...")
+            youtube_chat.poll_live_chat(active_live_chat_id, save_messages, filename, csv_headers)
+
+            print(f"Polling complete and CSV should be saving now.")
+
         else:
             print("No active live chat found for this video.")
     else:
         print("No live events found for this channel.")
+
+
+if __name__ == "__main__":
+    main()

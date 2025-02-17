@@ -4,6 +4,7 @@ import csv
 import os
 import re
 import requests
+from dotenv import load_dotenv
 from datetime import timedelta
 from youtube_transcript_api import YouTubeTranscriptApi
 from langchain_google_genai import GoogleGenerativeAI
@@ -305,4 +306,5 @@ def main():
         print(f"Analysis for '{video_title}' written to {output_file_path}")
 
 if __name__ == '__main__':
+    load_dotenv()
     main()
