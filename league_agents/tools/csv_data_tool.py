@@ -1,44 +1,9 @@
 from crewai.tools import BaseTool
 import pandas as pd
-from datetime import datetime, timedelta
 import os
-import time
-import gdown
+from data_downloader import download_csv, LEAGUE_FILE_PATH # Import the function and constant
+# from data_downloader import download_csv # Import the function
 
-league_file_path = 'league_pro_games.csv'
-
-def download_csv():
-    """
-    Downloads the CSV file from Google Drive if the local file has not
-    been updated within the last 24 hours. Otherwise, it skips downloading.
-    The downloaded file is saved to `self.file_path`.
-    """
-
-    def is_file_updated_within_24_hours(file_path):
-        """
-        Checks if a file at the given path has been modified within
-        the last 24 hours.
-        
-        Args:
-            file_path (str): The path to the file.
-        
-        Returns:
-            bool: True if the file exists and has been updated within
-                    the last 24 hours, False otherwise.
-        """
-        if os.path.exists(file_path):
-            file_mod_time = datetime.fromtimestamp(os.path.getmtime(file_path))
-            return datetime.now() - file_mod_time < timedelta(hours=24)
-        return False
-
-    # file_url = 'https://drive.google.com/uc?id=1IjIEhLc9n8eLKeY-yh_YigKVWbhgGBsN'
-    file_url = 'https://drive.google.com/uc?id=1v6LRphp2kYciU4SXp0PCjEMuev1bDejc'
-
-    if not is_file_updated_within_24_hours(league_file_path):
-        gdown.download(file_url, league_file_path, quiet=False)
-        print("File downloaded successfully.")
-    else:
-        print("File is up to date.")
 
 class PlayerResultsTool(BaseTool):
     name: str = "player_results"
@@ -49,14 +14,11 @@ class PlayerResultsTool(BaseTool):
         "including statistics like kills, deaths, assists, dragons, barons, "
         "gold differences, and more."
     )
-    file_path: str = league_file_path
-
-    
+    file_path: str = LEAGUE_FILE_PATH
 
     def _run(self, team1: str, team2: str) -> str:
-        # if self
-        if not os.path.exists(league_file_path):
-            download_csv()
+        if not os.path.exists(LEAGUE_FILE_PATH):
+            download_csv(LEAGUE_FILE_PATH)
         else:
             print("File already exists.")
         df = pd.read_csv(self.file_path)
@@ -90,7 +52,6 @@ class PlayerResultsTool(BaseTool):
 
         return summary.to_string()
 
-
     def compare_teams(self, team1, team2):
         """
         Compares performance metrics between the two specified teams, including
@@ -114,8 +75,9 @@ class PlayerResultsTool(BaseTool):
 
         return comparison.to_string()
 
+
 class TeamComparisonTool(BaseTool):
-    name: str = "player_results"
+    name: str = "team_comparison"  # changed name
     description: str = (
         "A utility class that downloads and processes League of Legends professional "
         "match data from https://oracleselixir.com/, focusing on esports and "
@@ -123,9 +85,7 @@ class TeamComparisonTool(BaseTool):
         "including statistics like kills, deaths, assists, dragons, barons, "
         "gold differences, and more."
     )
-    file_path: str = league_file_path
-
-    
+    file_path: str = LEAGUE_FILE_PATH
 
     def _run(self, team1: str, team2: str) -> str:
         """
@@ -140,6 +100,11 @@ class TeamComparisonTool(BaseTool):
         Returns:
             str: A string representation of the filtered DataFrame summary.
         """
+        if not os.path.exists(LEAGUE_FILE_PATH):
+            download_csv(LEAGUE_FILE_PATH)
+        else:
+            print("File already exists.")
+
         df = pd.read_csv(self.file_path)
         filtered_df = df[(df['teamname'] == team1) | (df['teamname'] == team2)]
 
