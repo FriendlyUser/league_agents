@@ -1350,3 +1350,570 @@ Okay, let's break down these two best-of-three series, focusing on match closene
 *   The series highlighted D+'s ability to come back from set backs and just completely snowball the games to victory.
 
 Let me know if you'd like a more detailed look at any specific aspects!
+
+
+Okay, let's break down the DRX vs. DNF and NS vs. BRO matches from the provided transcript and analyze the performance of each team.
+
+DRX vs. DNF
+
+Game 1 Summary:
+
+DRX: Drafted a mixed composition with poke elements (Zyra, Ezreal) but lacked a clear identity. Ucal's Corki pick was questionable, given his champion pool and the team's needs. They won through individual skill expression (primarily Ucal and Teddy) and capitalizing on DNF's indecisiveness.
+
+DNF: Drafted a poke-centric composition, but their execution was poor, with missed skillshots being a recurring problem. Life's decision-making on Rakan was also suspect, with the team often lacking the necessary coordination for engages. Berserker, while individually skilled, was often put in difficult situations and wasn't able to carry.
+
+Team Performance Analysis:
+
+DRX:
+
+Strengths:
+
+Individual Skill: Ucal and Teddy were the standout performers, capable of carrying fights and creating advantages. Teddy, in particular, had a great read of the map and used this to come out ahead of his oppositional carry Aiming.
+
+Adaptability: They were able to capitalize on DNF's mistakes and adjust their gameplay to secure objectives.
+
+Weaknesses:
+
+Draft Incoherence: The composition lacked a clear win condition and didn't play to the strengths of all their players.
+
+Communication Issues: Some skirmishes were messy and lacked coordination.
+
+DNF:
+
+Strengths:
+
+Draft Theory: Their composition was theoretically sound, but they failed to execute on the idea.
+
+Weaknesses:
+
+Execution: Missed skillshots, poor engage timing, and indecisive decision-making plagued their gameplay.
+
+Team Synergy: The team lacked a clear identity and struggled to coordinate their actions.
+
+Life on Rakan: Life struggled on engage supports which caused miscommunication in teamfights, as mentioned earlier.
+
+Why DRX Prevailed:
+
+DRX won because of the superior individual skill from their star players and their ability to punish DNF's numerous mistakes. DNF's composition wasn't able to take the series due to the failure to execute teamfights and generate offensive opportunities.
+
+Game 2 Summary:
+
+DRX: Drafted a more cohesive composition with engage (Leona, Wukong) and carry potential (Ashe, Aurora). Ucal continued to dominate on Aurora, dictating the pace of the game.
+
+DNF: Drafted a dive composition but failed to execute effectively. They continued to make individual errors and couldn't contain Ucal's Aurora.
+
+Team Performance Analysis:
+
+DRX:
+
+Strengths:
+
+Strong Carry: Ucal's Aurora performance was exceptional, showcasing his ability to dominate teamfights.
+
+Cohesive Draft: The composition had a clear win condition and played to the strengths of their players.
+
+Weaknesses:
+
+The only weakness here would be a strong dependancy on Ucal's performance to dictate the outcome of teamfights.
+
+DNF:
+
+Strengths:
+There aren't any key strengths in the DNF roster, there seems to be too much dependancy on either Berserker or Bulldog to dictate the outcome of the series, but they are being shut down constantly and the team fails to properly play towards them.
+
+Weaknesses:
+
+Individual Errors: DNF continues to make too many individual errors, setting eachother behind and making it difficult to compete.
+
+Disunified Goals: The team continues to look disjointed and not play towards a similar win condition.
+
+Why DRX Prevailed:
+
+DRX continued to win the series due to their superior planning and gameplay. Ucal having another dominant performance and having complete control of the tempo of the game and making it difficult for dnf to keep up.
+
+NS vs. BRO
+
+Game 1 Summary:
+
+NS: Drafted a balanced composition with engage (Nautilus), damage (Aphelios, Rumble), and sustain (Alistar). Lens's early roam and kill on the enemy jungler set them up for success.
+
+BRO: Drafted a comp with pick potential (ahri, wukong) and carry potential (Ezreal), but their execution was poor, with key skillshots being missed, this is in turn caused the team to have to give over the series lead.
+
+Team Performance Analysis:
+
+NS:
+
+Strengths:
+
+Strong Support Play: Lens's roam and early invade created a significant advantage for his team.
+
+Teamfighting: They were able to coordinate their abilities and secure key kills in teamfights.
+
+Weaknesses:
+Wasn't any key weakness during the series.
+
+BRO:
+
+Strengths:
+Theoretically the draft was solid, they had offensive opportunities
+
+Weaknesses:
+
+Overagression: Dives that lead to more oppurtunities for the opposing teams to gain more advantages and shut down all offensive capabilities
+
+Why NS Prevailed:
+
+NS dominated the tempo of the series and taking the game 1 led with a powerful performance from Lens, their high level support. BRO were unable to control any tempo, and failed to properly engage.
+
+Game 2 Summary:
+
+NS: Drafted another well-rounded composition with carry potential (Aphelios), engage (Nautilus, Sejuani), and pick (Lissandra).
+
+BRO: Drafted a comp but it was a complete failure and it showed as the opposing teams were completely in control. They continued to lose objective control.
+
+Team Performance Analysis:
+
+NS:
+
+Strengths:
+
+Great synergy: with high objective control, no one could contend with.
+
+BRO:
+
+Weaknesses:
+Lack of communication, lack of objective planning.
+
+Why NS Prevailed:
+
+NS prevailed to complete the series and make it to the next rounds.
+
+General Observations Across Both Matches:
+
+Drafting is Key: The team that drafted a more cohesive and synergistic composition generally had a better chance of winning.
+
+Individual Skill Matters: Individual skill expression can be a game-changer, particularly when combined with good decision-making.
+
+Execution is Crucial: Even with a good draft, poor execution can lead to defeat.
+
+Objectives are Important: Controlling objectives is crucial for gaining an advantage and snowballing a lead.
+
+
+Okay, here's an analysis of the T1 vs. Nongshim RedForce (NS) and Hanwha Life Esports (HLE) vs. DRX series, focusing on match closeness, player performance, draft decisions, macro play, team fighting, and areas for improvement, based on the provided transcript. Note that due to the lack of vision on actual gameplay, all conclusions are derived from the analyst commentary.
+
+T1 vs. Nongshim RedForce (NS)
+
+Overall Match Closeness:
+
+This series was not close. T1 dominated both games. Game 1 was a complete stomp, and while NS showed some signs of life in Game 2, they were ultimately outclassed. The analyst commentary consistently paints a picture of T1's superior execution and snowballing ability.
+
+T1 Performance:
+
+Strengths:
+
+Early Game Domination: T1's early game was a major factor in their victory. They secured First Blood in Game 1 by a huge margin.
+
+Snowballing: Once ahead, T1 suffocated NS, denying them farm and objectives and constantly increasing their lead.
+
+Draft Proficiency: T1 seemed comfortable and effective with their compositions, even if they weren't hyper-optimized. They capitalized on draft advantages in both matches. They were praised for banning key champions and prioritizing Jace in particular.
+
+Team Fighting Coordination: T1 had strong team fight coordination, evident in their even damage share. Their communication and synergy were highlighted.
+
+Individual Skill: Doran was performing extremely well, having good understanding on tank Jace.
+
+Adaptability: Demonstrated capacity to flex positions in games.
+
+Individual Players
+
+Smash: Seemed to adjust into the roster better as the games continued.
+
+Doran: Tank Jace player has been very helpful in facilitating the team.
+
+Oner: Excellent on xin zhao and overall fantastic pick of this tournament.
+
+Faker: Strong performance on Azia and Orianna, showing how to dive with composition.
+
+Keria: He has had excellent understanding on playing support champions.
+
+Areas for Improvement:
+
+Discipline (Game 1): The analyst points out a momentary lapse in discipline during Game 1 where they risked the Baron lead to comeback gold. This could be exploited by stronger teams.
+
+Nongshim RedForce (NS) Performance:
+
+Weaknesses:
+
+Draft Issues: NS often ended up with compositions that were either difficult to execute or easily countered by T1. NS first rotation on red side was a problem in general.
+
+Early Game Deficits: They frequently fell behind early, making it difficult to contest objectives or match T1's pressure.
+
+Team Fight Coordination: NS's team fights were often disjointed and uncoordinated, resulting in them losing key engagements.
+
+Individual Errors: Key players like Len's made critical mistakes, such as missed hooks and questionable positioning.
+
+Roster
+
+Kingin: Constantly dove and threatened, and spent a lot of time in death chamber. Not able to hit cs.
+
+Strengths:
+
+Late-Game Fight (Game 1): they stalled to get certain ults that changed to fight around, and were almost able to make a comeback, giving them an opportunity to grasp any momentum.
+
+Areas for Improvement:
+
+Draft Strategy: NS needs to refine their draft process to create compositions that are easier to execute and less vulnerable to T1's play style.
+
+Early Game Execution: NS needs to improve their early game decision-making and execution to avoid falling behind early.
+
+Team Fight Synergy: Working on team fight synergy and communication is essential for NS to be competitive against stronger teams.
+
+Discipline: In the second game against the team, they got punished with dives. In game two they ended up trying to force too many hooks that lost them the game.
+
+HLE vs. DRX
+
+Overall Match Closeness:
+
+This series was closer than the T1 vs. NS matchup but still finished in a 2-0. Game 1 was a chaotic, back-and-forth affair where DRX initially had a lead but lost it due to questionable decision-making. Game 2 had points of contention, ultimately with hle taking the victory.
+
+HLE Performance:
+
+Strengths:
+
+Late-Game Scaling: HLE drafted compositions that scaled well into the late game, allowing them to come back from early deficits.
+
+Map Awareness: The analyst mentions they outplayed and outmaneuvered DRX across the map. Their rotations were better, leading to objective control.
+
+Adaptability: They were able to adjust their strategy and capitalize on DRX's mistakes.
+
+Late Game Dominance the last games had their draft set in and were able to take the victory.
+
+Strong individual performance:
+
+Zeka was performing consistently.
+
+There were great arrows from Viper.
+
+Clean game from Peanut.
+
+Solid play on zea.
+
+Weaknesses:
+
+Early Game Instability: HLE frequently struggled in the early game, giving DRX opportunities to gain a lead. They have made small mistakes early that were capitalized well.
+
+Draft (Game 1): The composition drafted was too heavily reliant on Wombo Combos, which were tough to pull off.
+
+Team Fight Coordination: The team had great difficulty rotating to different positions for team fights. At points this was a major weakness that the DRX were able to capitalize on, with the potential to win fights when out numbered.
+
+Individual Players
+
+Viper: Fantastic player, with his great kiting and ability to come back with the great game.
+
+Zeka: Has had great performances on rumble and corki.
+
+Peanut: Has been one of the consistent players of the team, but when on the nly, has fallen off.
+
+Areas for Improvement:
+
+Early Game Consistency: HLE needs to improve their early game play to avoid giving opponents early advantages.
+
+Draft Strategy: The team needs to ensure that their compositions are well-rounded and not too reliant on specific conditions.
+
+Teamwork: The analyst suggests that HLE might need to improve their teamwork, especially in rotations and objective control.
+
+Discipline - they made some mistakes on vision.
+
+DRX Performance:
+
+Strengths:
+
+Early Game Aggression: DRX often had strong early games, allowing them to gain a lead and put pressure on HLE.
+
+Wombo Combo Potential: Their compositions often had the potential for powerful Wombo Combos, which could turn the tide of battles.
+
+Mechanical Skill: Many of the DRX players had high levels of mechanical skill, allowing them to make impressive plays and outmaneuver opponents.
+
+Rotation - The team had great understanding on where the next step in the game should be, which gave great vision control.
+
+Weaknesses:
+
+Mid to Late Game Decision-Making: DRX struggled to maintain their leads in the mid to late game, often making questionable decisions that allowed opponents to come back.
+
+Wombo Combo composition - relied too much on Wombo Combo potential, rather than playing well.
+
+Reliance on High-Risk Plays: DRX frequently made high-risk plays that could either lead to big gains or catastrophic losses.
+
+Inconsistent Teamwork: DRX's teamwork was inconsistent, often resulting in them being outmaneuvered by their opponents.
+
+Roster
+* Rich
+* Sponge
+* UKal
+* Teddy
+
+Areas for Improvement:
+
+Strategic Decision-Making: DRX needs to improve their strategic decision-making to avoid throwing away leads.
+
+Late Game Execution: The team needs to practice their late-game execution to ensure that they can close out games when they have an advantage.
+
+Teamwork: DRX needs to improve their teamwork and communication to ensure that they are all on the same page and working towards the same goal.
+
+Key Differences and Takeaways:
+
+T1 vs. NS: A clear mismatch. T1 dominated with superior skill and execution.
+
+HLE vs. DRX: A closer series, but DRX's inability to capitalize on their early advantages led to their downfall. HLE's scaling compositions and better decision-making in the mid to late game proved to be the difference. T1’s next series will likely depend on the outcome of T1 VS HLE.
+
+
+Alright, let's dissect that KT vs. Nongshim RedForce (NS) match from the LCK Cup Playoffs! Based on the transcript and team compositions, we can determine how close the games were and what, if anything, KT did right given the circumstances.
+
+Overall Match Closeness:
+
+The series was a 3-0 sweep for Nongshim RedForce. As Wolf states, "that 3 O was looking further and further", This indicates NS's better understanding of the meta and overall stronger team synergy
+
+KT ROLSTER Analysis:
+
+The difficulty with KT is finding concrete strengths to highlight from a series where they were swept. Most of their "successes" were fleeting moments that couldn't be capitalized upon.
+
+Fleeting Moments of Early Game Pryo: In game 1, you can see perfect with The TR getting lane control, the transcript even implies that ""you just can’t help but feel like they’re going to come up and it’s a lot more to lose” as they talk about what they can do with Pryo over the map
+
+BDD's Individual Skill: If there was one consistent bright spot for KT, it was BDD's individual skill and playmaking on Azir and some games where he did what he could, the casters point him out as one of the best players. But, as the casters said "KT is about that clip" with the Azir. This shows the dependency on a few players.
+
+However, these flashes were quickly extinguished by Noam better team play. The only thing consistent was BDD’s skill. It was never enough to pull away and control the map in the team sense.
+
+What were KT's Weaknesses?
+
+Lack of Team Coordination: This was the biggest and most glaring issue. The spaced out team fights and isolated deaths (particularly perfect) were indicative of poor communication and a lack of strategic coherence.
+
+Perfect's Vulnerability: Opposing team often exploited Perfect's weaknesses, and Kingen was well equipped to counter them.
+
+Poor Decision Making: Many comments reference over-aggression, questionable dives, and failing to protect key members. This poor decision-making often sabotaged any lead they managed to achieve.
+
+Draft Issues: The draft quality and gameplan were not there, they often lost the game, if its top laner was out pressure. The team was on its best behavior
+
+Way was just not it They talk about how Way's Leona doesn't really force engagement and is a coin flip whether it will pay off for the team in their team composition
+
+Areas of Improvement:
+
+Team Communication: It is clear that the biggest problem is the teams lack of communication with each other.
+
+Consistent objective play: During the 2nd and 3rd games there where periods that NGHM just dominated all objectives without a clear resistance to the team,
+
+Perfect was exploited: All games had a good opportunity, the key was setting perfect behind to create the advantage. If it wasn't him that they put behind, they were always behind another teammate
+Game-Specific highlights and lowlights:
+
+Game 1: KT used their bot side pressure that led a strong pick on perfects lane
+
+Game 2: Not very much to say about what good went for KT.
+
+Game 3: N/A
+
+In summary, the KT vs NS series was a demonstration of the power of coordination and team cohesion over individual talent. KT, while possessing skilled players, struggled to synchronize their efforts, resulting in a decisive loss. This transcript sounds like KT needs to reset with the next group of rosters.
+
+
+Overall Match Closeness:
+
+The series was incredibly close, evidenced by going to a full game 5. This indicates a relatively even skill matchup between the two teams and a lack of any single overwhelming strategy. Individual games, however, were often decided by key moments (objective steals, successful flanks, crucial team fight engagements), suggesting some level of volatility.
+
+HLE Analysis:
+
+Strengths:
+
+Draft Flexibility: The commentators noted how often, given the Fearless Draft format, they could play comfort picks. Particularly in Game 1.
+
+Teamfighting Coordination: When HLE was on point, they demonstrated excellent front-to-back team fighting, setting up advantageous positions and focusing fire effectively. Their peel for carries (especially Viper) was often stellar.
+
+Exploiting T1's Draft Weaknesses: HLE effectively punished T1 when the latter's drafts became too greedy or lacked cohesion, focusing on scaling, HLE recognized and capitalized these moments, in later games.
+
+Lane Control: While not always dominant, HLE's laners (particularly Zues and Viper) could control tempo in their lanes, denying vision and pressure to T1.
+
+Viper's Consistent Carry Performance: Viper was often a reliable damage source, especially when given space to farm and scale.
+
+Weaknesses:
+
+Early Game Inconsistencies: HLE sometimes struggled to execute early game plans effectively. There were instances of level 1 misplays and poor rotations.
+
+Peanut's Performance Variability: Peanut had moments of brilliance, but also games where his impact was minimal or even detrimental. His champion pool may have been a limiting factor at times.
+
+Dependence on Specific Comps: Some games were heavily reliant on certain players (like Zeus) hitting peak performance, making them vulnerable when those conditions weren't met.
+
+Areas of Improvement:
+
+Consistent Early Game Execution: Improving early game coordination and avoiding misplays could lead to more proactive map control.
+
+Peanut's Champion Pool: Expanding Peanut's champion pool could provide more flexibility in drafts and reduce predictability.
+
+Drafting Around Objectives: Prioritizing objective control in the draft, especially given the importance of Dragons, could be beneficial.
+
+T1 Analysis:
+
+Strengths:
+
+Aggressive Skirmishing: T1 was adept at engaging in early skirmishes, using their dive-heavy compositions to pick off isolated targets.
+
+Faker's Playmaking: Faker consistently demonstrated exceptional playmaking ability, controlling mid-lane tempo, roaming effectively, and impacting team fights.
+
+Oner's Jungle Prowess: Oner showed high individual skill and awareness, securing key objectives, ganking lanes effectively, and setting up plays.
+
+Adapting during the Series: T1 successfully bounced back from losses, adjusting their drafts and strategies to counter HLE's strengths.
+
+Weaknesses:
+
+Inconsistent Drafts: T1 had several questionable drafts, lacking cohesion or relying too heavily on specific conditions.
+
+Over-Aggression: At times, T1's aggression bordered on recklessness, leading to over-dives and unnecessary deaths.
+
+Smash's Champion Pool and Consistency: Smash, while having moments of brilliance, often appeared vulnerable due to a limited champion pool and inconsistent performance.
+
+Areas of Improvement:
+
+Prioritizing Cohesive Drafts: T1 needs to focus on creating more balanced team compositions that have clear win conditions and synergies.
+
+Improving Macro Decision-Making: Better objective control, more calculated dives, and a more nuanced approach to side lane pressure would all benefit T1.
+
+Expanding Smash's Champion Pool: Increasing the size of Smash's champion pool and improving consistency could alleviate pressure on Faker and Oner.
+
+***Utilizing side lane potential** The problem lies where there are too much reliance on having Faker be the carry.
+Use code with caution.
+Understanding their win conditions As shown in their games, the way they won games was either the enemy team would misstep and they would punish. Or they would snowball and try to end the game quickly
+
+Draft Analysis (Based on Comments):
+
+HLE prioritized comfort and scaling and drafted strong front-to-back compositions that would win if they reached the late game unscathed.
+
+T1 leaned into Dive comps that relied on one or two win conditions with very little room for error. This high variance strategy proved inconsistent.
+
+Individual Game Analysis Highlights (Based on Transcript):
+
+Game 1: HLE exploited T1's lane swap, getting a double kill in the 2v2, which enabled the Zues to have strong 1v1 pressure. T1 composition was reliant on a good early game that never came through.
+
+Game 2: T1 answered back with a much more aggressive and coordinated strategy, focusing on early skirmishes and snowballing a lead. HLE's team comp, lacking in engage, struggled to respond.
+
+Game 3: HLE came to steal Grub camp that cost a Doran, which led to hwa taking the top tier 1 and controlling the map at that part.
+
+Game 4: T1 tried to create an invade composition with Faker on LeBlanc as a support, this was all for not. HLE punished this and went to take baron to close out the match.
+
+Game 5: The key play of the game was when Owner stole the Baron at that moment this win was for HLE. HLE just snowballed through T1 base. With that said both teams did their best but it was not enough for both sides.
+
+Key Takeaways:
+
+Champion Pool Versatility Matters: The Fearless Draft format put a premium on champion pool versatility. Teams with more flexible players were better equipped to adapt and counter-draft.
+
+Team Coordination is Crucial: While individual skill is important, success ultimately depends on team coordination and communication. Teams that were able to execute their strategies cleanly and effectively had a clear advantage.
+
+
+Alright, let's break down the DK vs. NS series, focusing on the performance of each team and what they could have done better.
+
+Match Closeness:
+
+This series was not particularly close. It was a 3-1 victory for DPlus KIA, indicating a clear skill gap and/or strategic advantage that DK held over Nongshim. It seems, from the transcript, that 1 game was only won due to an unusual play that the team had.
+
+Nongshim RedForce (NS) Analysis:
+
+Strengths:
+
+Lens's Shotcalling: As mentioned, the team's ability to listen to lens with the set and set the pace of the game has proven to be a positive. The problem lied with having the members be there to follow through
+
+Vision Control: One of the most consistent areas in the first two games was the ability of NOngshim and the team to create key areas with vision over the enemy. This could have led to great opportunities to put in the lead and make the plays necessary
+
+Weaknesses:
+
+Individual Skill Gaps: It was noted that players with similar items as others did not make a great impact that were seen to be beneficial
+
+Comp Inexperience: The team had difficulty creating cohesion and would make weird calls for dives or objectives they would take, that would ultimately led to their demise in several matches.
+
+Poor macro play: Most of the analyst say it well but they get a gold lead then they run it back then its over.
+
+Areas of Improvement:
+
+Team Compositions: I feel that they really leaned into putting together high team strength and they also could have really used the counter pick strength of their line up. Instead, they picked to many of those teamates on a high side to begin the series on
+
+Knowing their power spikes With a majority of the comps having an excellent set of 2 item power spikes, they were always looking to trade kills, and over stay for plays. Also, they had no way to peel for him so it always just didn't work.
+
+Adaption*: The team needed to do better adjusting. You can see that the games the same plans where used and kept going wrong even if they were to succeed at times. They need to realize there was another choice
+
+DPlus KIA Analysis:
+
+Strengths:
+
+ShowMaker's Versatility and Playmaking: ShowMaker consistently demonstrated a wide champion pool and exceptional playmaking ability.
+
+Lucid's Jungle Dominance: Lucid effectively controlled the jungle, securing objectives and applying pressure to the enemy lanes.
+
+Barrel's Roaming and Game Knowledge:
+The roaming to make the map feel much smaller and the experience the knowledge to call for different picks when there was that to be a good play.
+
+*Lucid's carry to mid Lucid being able to carry a game like that to those the series has been able to push the team that were necessary
+
+Weaknesses:
+
+Draft Greed (Game 3): The attempt to draft a hyper-carry composition in game 3 left them vulnerable to being out-maneuvered.
+
+High Damage Target: Since a vast majority of the team's damage relied heavily on Lucid, it was a weakness because it was able to be taken advantage of. Also was the reason there were comebacks due to his lack of positioning at times.
+
+Areas of Improvement:
+
+Draft Cohesion: While DPlus is known for their innovative drafts, they need to ensure that their compositions have clear win conditions and sufficient sustain, otherwise their just going to try to play the game instead of actually forcing the game.
+
+Controling more resources Showmakers team can get a good hold of the game and try to take the game with a lead, what seems to be a concern is if he is behind there doesn't seem to be anyone that can stop him
+
+Key Takeaways:
+
+Macro Play is Key: The series highlighted the importance of strategic decision-making. Teams that were able to secure objectives, control vision, and execute rotations effectively had a clear advantage.
+
+Team Synergy and Communication are Crucial: Even highly skilled players need to be on the same page to succeed. Teams with strong communication and coordinated rotations were more effective at capitalizing on opportunities and punishing mistakes.
+
+Adaptability is Essential: While having a strong plan is important, teams must also be able to adapt to changing game conditions. Those that were able to identify and exploit weaknesses in the opponent's strategy had a greater chance of victory.
+
+In essence, the DK vs. NS series was a clash of styles and strategic approaches. While NS demonstrated flashes of brilliance, DK's superior consistency and team cohesion ultimately proved to be the deciding factors.
+
+
+GEN vs. HLE: Game-by-Game Summaries
+Game 1:
+
+Draft:
+
+GEN: Strong and reliable.
+
+HLE: Good combination of strong champions, for all of the positions. With many known good players, it all worked together.
+
+Early Game: Started off strong in bottom, however the lane swap from a great Zues, made a great impression. But because of that the team wanted something extra, with what they had in mid, it allowed the team to get a great amount of lane presence and for that reason the game was good for then.
+
+Outcome: Clean victory because it was difficult to counter what the team had come to bring to the game
+
+Game 2:
+
+Draft:
+
+GEN: The draft had some big holes where someone wasn't there to take advantage of it like if you let someone through, make use of that and shut them down, was said
+
+Early Game: With what was stated, there just were some great chances to really start from the get go with making their presence known and it was a bit of nothing,
+
+Mid/Late Game: No one was making plays to put up the hurt so instead they tried to work it and in and didn't get the opportunity back
+
+Game 3:
+
+Draft: Had their minds about them that they were just not going to let up without something working for them and then tried to pull them but they didn't do well
+
+Early Game: What was going wrong had no ability to work and there were some really bad areas in to do their strength
+
+Mid/Late Game: What it would have done well for them made them a target from there on out and was almost a lost for them, no matter what occurred in the set time
+
+Game 4:
+
+Draft:
+* HLE: What was strong in the earlier games but not as good from that point on. They seemed to be a bit more well knowing and ready, but not well at the end of their side
+* Gen: The key factor here was having The Top play be great. They would not. It made a lot more sense
+
+Early Game: Very strong set up for the early lead to make an appearance to come and to try and dominate, also
+
+Mid/Late Game: Things just are a little bit to little for what it was, the power pick just did not happen and that was it.
+
+Key Themes and Issues:
+
+GEN's Inconsistent Play: The analysts repeatedly stressed that GEN's biggest problem was their lack of coordinated action. In this particular game, the team seemed unable to react to a solid HLE and this caused their composition to be a failure
+
+Impact of Top Lane:** It all comes down to what top makes happen in team fight that can occur. Also knowing that the picks and the power that comes from those will always help out, it's never enough if you can't read it right
+
+This series was a prime example of how a well-executed plan, even with comfort picks, can overcome individual skill and raw power when the latter isn't properly channeled.

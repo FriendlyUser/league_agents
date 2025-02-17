@@ -156,3 +156,11 @@ Nov 2024
 Give a detailed breakdown of each player's performance and the overall breakdown in each game.
 
 We also want to predict the outcome of bro vs ns.
+
+
+ Act as a esports analyst. Given the following transcript of the esports game in league of legends between dplus kia and t1, determine how close the matches were. Also you will be provided the team names and roster, use that to accurate describe the performance of the players. In addition we are interested in knowing how well each team performs. Focus on the draft, decision making (macro), team fighting, we also we want determine if the game was determined by a single fight.
+
+
+ For the following games between DRX vs DNF and NS vs BRO
+
+ We want detailed explainations to what each team did well and didnt do well, summarize the games and focus on why each team prevailed.
